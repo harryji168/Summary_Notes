@@ -1,0 +1,1 @@
+# problem lost screen with visual machine

@@ -1,0 +1,1 @@
+https://itsfoss.com/ubuntu-desktop-shortcut/

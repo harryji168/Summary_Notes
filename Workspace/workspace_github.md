@@ -1,0 +1,3 @@
+https://www.itwriting.com/blog/11410-adding-a-visual-studio-code-workspace-to-a-github-repository.html
+
+https://www.google.com/search?q=vscode+workspace+github&sxsrf=AOaemvJ-dDScvQMqXpYzUUG5NdAgAJBtrA%3A1635618156522&ei=bI19YZmcH4LF0PEPrYOOsA8&oq=vscode+workspace+git&gs_lcp=Cgdnd3Mtd2l6EAMYAjIFCAAQgAQyBQgAEIAEMgUIABCABDIICAAQFhAKEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BAgAEA06BAgAEENKBAhBGABQ9D5Y0XFg3YcBaABwAngAgAGIAYgBtASSAQM0LjKYAQCgAQHAAQE&sclient=gws-wiz
