@@ -95,7 +95,7 @@ have do
 ```
 git branch -M main
 ```
-befoew 
+befoe 
 ```
 git remote add origin https://github.com/harryji168/phplist_xotours.git
 ```
