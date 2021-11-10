@@ -1,0 +1,1 @@
+https://www.i2ocr.com/free-online-chinese-traditional-ocr
