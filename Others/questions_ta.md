@@ -1,3 +1,12 @@
+
+# github upload big file >100m to github, I use https://git-lfs.github.com/, not success
+
+
+# voice control
+# gesture control
+
+
+
 # VSS workspace ? 
 
 share folder . don't need , save space?
@@ -23,6 +32,4 @@ how about comment line
 
 in explorer, type words,and enable filter
 
-# voice control
-# gesture control
 
