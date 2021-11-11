@@ -9,7 +9,7 @@ share node-modules? possible
 
 add logo
 vuejs
-nuxtjs
+nuxtjs  ff
 
 # selecting copy , sometime  past from bin, sometine from selection ???
 
@@ -17,6 +17,7 @@ nuxtjs
 
 # online commit, why don't need description
 how about comment line
+
 
 # vss search folder name
 
