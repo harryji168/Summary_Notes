@@ -5,6 +5,12 @@ share folder . don't need , save space?
 just for collecting folders together
 closed==
 
+share node-modules? possible
+
+add logo
+vuejs
+nuxtjs
+
 # selecting copy , sometime  past from bin, sometine from selection ?
 
 
