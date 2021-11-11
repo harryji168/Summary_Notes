@@ -21,6 +21,7 @@ how about comment line
 
 # vss search folder name
 
+in explorer, type words,and enable filter
 
 # voice control
 # gesture control
