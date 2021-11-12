@@ -1,2 +1,11 @@
 https://pip.pypa.io/en/stable/installation/
 
+
+https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/
+
+sudo apt update
+sudo apt install python3-pip
+
+
+pip3 --version
+pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
