@@ -4,6 +4,9 @@ https://www.hongkiat.com/blog/svg-animations/
 https://codepen.io/jjperezaguinaga/pen/yuBdq
 
 
+# fly 
+https://codepen.io/SwissWebMiss/pen/qEzRde
+
 
 #  Animated SVG icons
 (hover to see the animation)
@@ -39,5 +42,5 @@ https://codepen.io/EricPorter/pen/grpqVB
 # 3d demo
 http://velocityjs.org/demo.html
 
-
+# photo sketch
 https://codepen.io/kristenzirkler/pen/Layuh
