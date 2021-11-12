@@ -10,3 +10,5 @@ https://www.linkedin.com/company/super-e-solutions/
 
 
 https://stackoverflow.com/questions/3499128/does-anyone-know-of-a-node-js-linkedin-api-example
+
+https://www.npmjs.com/package/node-linkedin
