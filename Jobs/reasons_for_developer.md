@@ -4,7 +4,7 @@ https://www.techadvisor.com/feature/small-business/reasons-why-you-should-become
 # You don't necessarily need a degree, but You can become a specialist
 
 
-# Your earning potential is huge , You'll be in high demand
+# Your earning potential is huge , You'll be in high demand ,You'll be part of a community
 
  C# Web Developer (average salary of £47,500)
 - PHP Web Developer (average salary of £40,000)
@@ -13,4 +13,4 @@ https://www.techadvisor.com/feature/small-business/reasons-why-you-should-become
 - Full Stack Web Developer (average salary of £45,000)
 - Front End Web Developer (average salary of £36,000)
 
-# You can expand into other areas ,It's creative 
+# You can expand into other areas ,It's creative ! It is future! It's fun!
