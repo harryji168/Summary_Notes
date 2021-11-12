@@ -16,3 +16,19 @@ pool.query(
     console.log(err, res);
     pool.end();
   }
+
+
+    create_table "jobs", force: :cascade do |t|
+    t.string "linked_id"
+    t.string "title"
+    t.string "company"
+    t.string "Place"
+    t.date "date"
+    t.text "link"
+    t.string "function"
+    t.string "employmentType"
+    t.string "salary"
+    t.text "required_skills"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
