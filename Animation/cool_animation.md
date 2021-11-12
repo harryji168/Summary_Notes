@@ -57,3 +57,9 @@ https://webkit.org/blog-files/3d-transforms/morphing-cubes.html
 
 
 # store animation
+
+https://codepen.io/marianab/full/XPOQaR/
+
+
+# airplane
+https://codepen.io/chrisgannon/pen/NNOGxO
