@@ -7,3 +7,6 @@ Create impressive logos, animated or not, without having to use a complicated so
 
 Choose the logo style you want and customize it with your own text.
 https://www.textstudio.co/
+
+
+https://wave.video/blog/best-animated-text-generators/
