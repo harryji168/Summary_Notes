@@ -34,3 +34,10 @@ how about comment line
 in explorer, type words,and enable filter
 
 
+# HTNL5 use <center> insteady of css 
+not working 
+
+div {text-align: center;}
+
+
+# hover class 
