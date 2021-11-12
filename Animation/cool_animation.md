@@ -25,7 +25,13 @@ https://codepen.io/luruke/pen/mbnkA
 https://codepen.io/thiennhat/pen/BNByzJ
 
 
+# all device 
+https://codepen.io/chrisgannon/pen/WvJMXP
+
+
+
 https://bashooka.com/coding/animated-chart-graph-examples/
+
 
 
 # D3 Drag 
@@ -63,3 +69,5 @@ https://codepen.io/marianab/full/XPOQaR/
 
 # airplane
 https://codepen.io/chrisgannon/pen/NNOGxO
+
+

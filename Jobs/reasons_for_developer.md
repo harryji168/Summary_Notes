@@ -1,7 +1,7 @@
 https://www.techadvisor.com/feature/small-business/reasons-why-you-should-become-web-developer-3788491/
 
 
-# You don't necessarily need a degree, don't necessarily need a ledegree, but You can become a specialist
+# You don't necessarily need a degree, don't necessarily need a license, but You can become a specialist
 
 
 # Your earning potential is huge , You'll be in high demand ,You'll be part of a community
