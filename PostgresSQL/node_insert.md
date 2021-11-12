@@ -32,3 +32,19 @@ pool.query(
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
+
+
+  ## check record exist 
+
+  https://stackoverflow.com/questions/7471625/fastest-check-if-row-exists-in-postgresql
+
+
+  INSERT INTO target( userid, rightid, count )
+  SELECT userid, rightid, count 
+  FROM batch
+  WHERE NOT EXISTS (
+    SELECT * FROM target t2, batch b2
+    WHERE t2.userid = b2.userid
+    -- ... other keyfields ...
+    )       
+    ;
