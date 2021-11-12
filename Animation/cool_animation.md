@@ -90,3 +90,5 @@ https://codepen.io/asistapl/pen/EKQMmG
 # celebrate
 
 https://lottiefiles.com/69030-confetti-full-screen
+
+https://loading.io/background/m-confetti
