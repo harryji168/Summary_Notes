@@ -34,3 +34,10 @@ https://codepen.io/kyledws/pen/Gvelt
 # Graphs - animated on scroll, responsive, data-driven
 
 https://codepen.io/EricPorter/pen/grpqVB
+
+
+# 3d demo
+http://velocityjs.org/demo.html
+
+
+https://codepen.io/kristenzirkler/pen/Layuh
