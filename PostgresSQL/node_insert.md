@@ -36,15 +36,12 @@ pool.query(
 
   ## check record exist 
 
-  https://stackoverflow.com/questions/7471625/fastest-check-if-row-exists-in-postgresql
+https://stackoverflow.com/questions/4069718/postgres-insert-if-does-not-exist-already
 
-
-  INSERT INTO target( userid, rightid, count )
-  SELECT userid, rightid, count 
-  FROM batch
-  WHERE NOT EXISTS (
-    SELECT * FROM target t2, batch b2
-    WHERE t2.userid = b2.userid
-    -- ... other keyfields ...
-    )       
-    ;
+ INSERT INTO example_table
+    (id, name)
+SELECT 1, 'John'
+WHERE
+    NOT EXISTS (
+        SELECT id FROM example_table WHERE id = 1
+    );
