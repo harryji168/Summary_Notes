@@ -12,3 +12,6 @@ https://cooltext.com/
 
 
 https://wave.video/blog/best-animated-text-generators/
+
+
+https://flamingtext.com/
