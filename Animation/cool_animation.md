@@ -3,6 +3,11 @@ https://www.hongkiat.com/blog/svg-animations/
 # travel global
 https://codepen.io/jjperezaguinaga/pen/yuBdq
 
+# video preview button
+
+https://codepen.io/milanraring/pen/QWwyLdp
+
+
 # grid menu
 
 https://tympanus.net/Development/GridMenu/index2.html
