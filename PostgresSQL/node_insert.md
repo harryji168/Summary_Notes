@@ -9,3 +9,10 @@ const pool = new Pool({
   password: "1234",
   port: "5432"
 });
+
+pool.query(
+  "INSERT INTO student(firstname, lastname, age, address, email)VALUES('Mary Ann', 'Wilters', 20, '74 S Westgate St', 'mroyster@royster.com')",
+  (err, res) => {
+    console.log(err, res);
+    pool.end();
+  }
