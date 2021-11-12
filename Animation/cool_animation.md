@@ -85,3 +85,8 @@ https://codemyui.com/css-only-screensaver-like-floating-up-parallax-image-galler
 # 3d image
 
 https://codepen.io/asistapl/pen/EKQMmG
+
+
+# celebrate
+
+https://lottiefiles.com/69030-confetti-full-screen
