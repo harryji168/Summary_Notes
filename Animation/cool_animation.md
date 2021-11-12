@@ -21,3 +21,9 @@ https://bashooka.com/coding/animated-chart-graph-examples/
 # D3 Drag 
 
 https://codepen.io/Siddharth11/pen/YPMWeE
+
+# 3D step counter card 🚶
+
+https://codepen.io/ste-vg/pen/wdBRZN
+
+
