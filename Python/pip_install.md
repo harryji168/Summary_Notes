@@ -31,5 +31,6 @@ pip install selenium
 pip install bs4
 ```
 
+ 
 
-https://chromedriver.storage.googleapis.com/index.html?path=96.0.4664.35/
+https://chromedriver.storage.googleapis.com/index.html?path=95.0.4638.69/
