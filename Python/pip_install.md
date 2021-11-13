@@ -19,6 +19,9 @@ https://newbedev.com/shell-error-pyopenssl-20-0-1-has-requirement-cryptography-3
 ```
 pip install  --upgrade cryptography
 ```
+
+2. Installing Selenium and Beautiful Soup
+
 ```
 pip install selenium
 ```
@@ -27,3 +30,6 @@ pip install selenium
 ```
 pip install bs4
 ```
+
+
+https://chromedriver.storage.googleapis.com/index.html?path=96.0.4664.35/
