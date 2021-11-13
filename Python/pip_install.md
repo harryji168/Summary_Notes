@@ -36,3 +36,6 @@ pip install bs4
 https://chromedriver.storage.googleapis.com/index.html?path=95.0.4638.69/
 
 document.getElementById("ember50").click();
+
+
+document.getElementById("ember50").click();
