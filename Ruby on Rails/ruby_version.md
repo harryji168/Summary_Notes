@@ -25,6 +25,8 @@ rvm install "ruby-2.6.3"
 gem install bundler:2.0.2
 ```
 
+rvm reinstall ruby-2.6.3
+
 #  Can't find Python executable "python"
 ```
 sudo apt-get update
