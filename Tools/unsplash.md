@@ -2,5 +2,5 @@ Unsplash: Beautiful Free Images & Pictures
 
 
 https://unsplash.com
-
-document.getElementByClass("bhTable").
+ 
+document.getElementsByClassName("show-more-less-html__button")[0].click();
