@@ -1,3 +1,9 @@
+# setup workspace
+# rails set up database
+
+
+
+
 rails new my_api --api
 
 rails g controller api::v1::questions --no-assets --no-helper
