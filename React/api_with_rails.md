@@ -1,5 +1,8 @@
 # setup workspace
 # rails set up database
+/config/database.yml
+/config/puma.rb
+
 
 
 
