@@ -5,6 +5,8 @@
 db:reset
 ```
 /config/puma.rb  port
+ 
+
 
 
 
