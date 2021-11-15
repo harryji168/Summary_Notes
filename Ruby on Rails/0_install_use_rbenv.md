@@ -101,6 +101,8 @@ rails db:seed
 
 # install ruby 2.6.3
 
+rvm reinstall ruby-2.6.3
+
 ```
 rvm install "ruby-2.6.3"
 gem install bundler:2.0.2
