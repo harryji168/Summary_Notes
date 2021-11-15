@@ -1,6 +1,6 @@
 # for shell command run at same time
 
-#ruby
+# rails run sql command
 
 # authorize with google account...
 
