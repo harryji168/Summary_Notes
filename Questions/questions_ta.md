@@ -1,3 +1,7 @@
+# for shell command run at same time
+
+#ruby
+
 # authorize with google account...
 
 # github upload big file >100m to github, I use https://git-lfs.github.com/, not success
