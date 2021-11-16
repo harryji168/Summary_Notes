@@ -1,1 +1,1 @@
-VT-x is not available
+need VT-x  available 
