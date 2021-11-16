@@ -2,6 +2,10 @@
 
 # rails run sql command
 
+ sql="select * from jobs where linked_id = ':params[:linked_id]'"
+         
+ @results = ActiveRecord::Base.connection.exec_query(sql)
+     
 
 # authorize with google account...
 
