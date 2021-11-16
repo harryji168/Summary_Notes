@@ -6,6 +6,9 @@
          
  @results = ActiveRecord::Base.connection.exec_query(sql)
      
+Mao said:
+ this was one example i did before
+@requests_from = Request.select("users.id as user_id, users.user_name, users.picture_url, requests.*").joins("INNER JOIN users ON users.id = requests.sender_id").where("receiver_id = #{current_user.id}")    
 
 # authorize with google account...
 
