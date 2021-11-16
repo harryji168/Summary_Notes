@@ -2,6 +2,7 @@
 
 # rails run sql command
 
+
 # authorize with google account...
 
 # github upload big file >100m to github, I use https://git-lfs.github.com/, not success
