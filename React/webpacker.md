@@ -16,3 +16,7 @@ npm i -D webpack webpack-cli
 ```
 webpack
 ```
+
+```
+npm i -D file-loader
+```
