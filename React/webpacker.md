@@ -20,3 +20,6 @@ webpack
 ```
 npm i -D file-loader
 ```
+```
+npm i -D webpack-dev-server
+```
