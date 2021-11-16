@@ -23,3 +23,6 @@ npm i -D file-loader
 ```
 npm i -D webpack-dev-server
 ```
+
+npm i -D @babel/core babel-loader
+npm i -D @babel/preset-env
