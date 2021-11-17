@@ -7,3 +7,6 @@ https://github.com/marak/Faker.js/
       var randomEmail = faker.internet.email(); // Rusty@arne.info
       var randomCard = faker.helpers.createCard(); // random contact card containing many properties
     </script>
+
+https://www.npmjs.com/package/faker
+
