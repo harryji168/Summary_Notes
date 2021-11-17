@@ -10,3 +10,9 @@ https://github.com/marak/Faker.js/
 
 https://www.npmjs.com/package/faker
 
+
+
+```rails
+
+https://github.com/faker-ruby/faker
+```
