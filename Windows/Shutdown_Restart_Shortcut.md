@@ -1,10 +1,12 @@
-# Part 1: How to create a shutdown shortcut on desktop in Windows 10
+# Shutdwon  
+```
+shutdown.exe -s -t 00 
+```
 
-Step 1: Right-click on any blank area of your desktop, then point to New in the context menu and then select Shortcut from the submenu.
-
-New shortcut
-
-# Step 2: After the Create Shortcut wizard opens, type shutdown.exe -s -t 00 in the location box, and then click Next.
+# restart
+```
+shutdown.exe -r -t 00 
+```
 
 Type shutdown command in the box
 
