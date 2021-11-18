@@ -72,3 +72,6 @@ In users_controller.rb:
 def show
         @user = User.find params[:id]
     end
+
+    
+    enable google map
