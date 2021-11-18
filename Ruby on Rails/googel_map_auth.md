@@ -47,3 +47,6 @@ class AddOmniauthFieldsToUser < ActiveRecord::Migration[6.1]
     add_column :users, :oauth_raw_data, :string
   end
 end
+
+
+https://console.cloud.google.com/project/_/apiui/credential?_ga=2.147201716.2098392703.1621212204-738629856.1621212204
