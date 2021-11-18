@@ -1,3 +1,11 @@
+# ruby faker 
+
+https://www.rubydoc.info/github/stympy/faker/Fak
+
+
+
+
+
 https://github.com/marak/Faker.js/
 
 
