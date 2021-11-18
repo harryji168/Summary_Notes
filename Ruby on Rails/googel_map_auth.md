@@ -58,3 +58,17 @@ gem 'underscore-rails'
 
 yarn add underscore
 
+rails g migration AddGeoCodeToUser latitude:float longitude:float
+ 
+rails g migration AddAddressToUser address:string
+ 
+user.rb:
+11:53
+geocode_by :address
+    after_validation :geocode
+11:55
+In users_controller.rb:
+11:55
+def show
+        @user = User.find params[:id]
+    end
