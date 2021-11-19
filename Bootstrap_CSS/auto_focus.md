@@ -3,3 +3,7 @@
 ```html
 <textarea autofocus  required></textarea>
 ```
+
+autofocus="autofocus"
+
+ <Form.Control type="text" name="first_name"placeholder="firstname"  autofocus="autofocus" />
