@@ -37,3 +37,10 @@ Google Cloud Support, Mark9:29 AM
 Though before this request is submitted, we shall need to ensure that all final charges are shown and to be included on the request. For this, we need to wait for 24 to 32 hours for the system to propagate the pending charges and apply to your billing account. This is to ensure that all unwanted charges for the project is included on our request (if there would still be any unapplied charges prior to having the project stopped completely).
 
 * This is 32 hours after the services (Shutdown project) has been stopped completely
+
+
+so no trail $300 for this account, right?
+Google Cloud Support, Mark9:30 AM
+I shall ensure that your request are submitted directly once the final charges are already available (if there still remains unapplied charges), and we'll make sure that you are updated for any relevant progress nor feedback with such adjustment via email.
+Google Cloud Support, Mark9:30 AM
+Rest assured, I will place a note in the case stating that your concern needs a certain urgency, and thus must be prioritized. For now, please take note of your case#: 29136249 as reference.
