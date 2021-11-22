@@ -15,5 +15,11 @@ https://pokeapi.co/
 
 
 
-#camera
+# camera
 https://www.fullstacklabs.co/blog/react-native-camera
+
+# gps 
+https://reactnative.dev/docs/0.63/geolocation
+
+# voice 
+https://github.com/react-native-voice/voice
