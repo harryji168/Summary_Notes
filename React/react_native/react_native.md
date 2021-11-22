@@ -5,4 +5,7 @@ https://expo.dev/
 ```
 npm i -g expo-cli
 ```
-expo init 
+expo init <project>
+
+cd <project>
+export start
