@@ -57,3 +57,7 @@ whereis php
 ```sh
 which php
 ```
+
+database setting
+
+/app/config/parameters.php
