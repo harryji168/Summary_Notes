@@ -13,12 +13,23 @@ export start
 
 https://pokeapi.co/
 
+
+npm install @react-navigation/native
+11:58
+expo install react-native-screens react-native-safe-area-context
+11:59
+npm install @react-navigation/native-stack
+
+
+
 https://www.codecast.io/play_cast/DnEL3N3NQOWj
 
 https://www.codecast.io/play_cast/odgQxxwzQxnM
 
 
 http://localhost:19000/debugger-ui/
+
+
 
 
 
