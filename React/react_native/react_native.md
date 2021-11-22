@@ -18,6 +18,10 @@ https://www.codecast.io/play_cast/DnEL3N3NQOWj
 
 
 
+http://localhost:19000/debugger-ui/
+
+
+
 
 # camera
 https://www.fullstacklabs.co/blog/react-native-camera
