@@ -13,6 +13,10 @@ export start
 
 https://pokeapi.co/
 
+https://www.codecast.io/play_cast/DnEL3N3NQOWj
+
+
+
 
 
 # camera
