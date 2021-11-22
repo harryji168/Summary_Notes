@@ -4,3 +4,5 @@ https://fossbytes.com/best-android-emulators-linux/
 
 
 https://reactnative.dev/docs/components-and-apis#basic-components
+
+andriod
