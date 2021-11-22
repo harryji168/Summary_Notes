@@ -9,3 +9,6 @@ expo init <project>a
 
 cd <project>
 export start
+
+
+https://pokeapi.co/
