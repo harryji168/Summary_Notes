@@ -12,3 +12,8 @@ export start
 
 
 https://pokeapi.co/
+
+
+
+#camera
+https://www.fullstacklabs.co/blog/react-native-camera
