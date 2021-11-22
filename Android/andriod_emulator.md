@@ -5,4 +5,7 @@ https://fossbytes.com/best-android-emulators-linux/
 
 https://reactnative.dev/docs/components-and-apis#basic-components
 
-andriod
+andriod studio
+
+
+https://linuxhint.com/install_android_studio_ubuntu/
