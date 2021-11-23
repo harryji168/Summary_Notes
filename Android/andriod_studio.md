@@ -23,3 +23,6 @@ Next, install Android Studio on your system. You can install Android Studio by e
 
 
 $ sudo apt install android-studio
+
+
+https://developer.android.com/studio
