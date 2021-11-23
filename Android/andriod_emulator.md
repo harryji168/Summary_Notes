@@ -9,3 +9,6 @@ andriod studio
 
 
 https://linuxhint.com/install_android_studio_ubuntu/
+
+
+https://docs.expo.dev/workflow/android-studio-emulator/
