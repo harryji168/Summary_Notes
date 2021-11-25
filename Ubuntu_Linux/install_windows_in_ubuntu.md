@@ -145,3 +145,17 @@ To completely remove the bottle for your user (and thus remove everything from a
 
 
 https://askubuntu.com/questions/101064/uninstall-a-program-installed-with-wine#
+
+
+
+# wine uninstaller
+
+
+On the command line, just type this: 
+```
+wine uninstaller
+```
+. This will launch an Add/Remove applet similar to what you get in Windows, which will list your installed WINE programs. The name and the invocation are definitely not intuitive. Henceforth, the actions are simple.
+
+
+On the command line, just type this: wine uninstaller. This will launch an Add/Remove applet similar to what you get in Windows, which will list your installed WINE programs. The name and the invocation are definitely not intuitive. Henceforth, the actions are simple.
