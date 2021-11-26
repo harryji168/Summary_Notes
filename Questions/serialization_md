@@ -9,3 +9,7 @@ include ActionController::Serialization
 
 
 https://coderedirect.com/questions/579507/active-model-serializer-not-working-with-rails-api-gem
+
+
+
+      render (json: jobscount, each_serializer: JobswaitforcheckSerializer  )
