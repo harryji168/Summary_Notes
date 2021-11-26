@@ -2,4 +2,10 @@ active model serializer not working with rails-api gem
 
 
 
+24
+In your BaseController, did you add the include bellow ?
+
+include ActionController::Serialization
+
+
 https://coderedirect.com/questions/579507/active-model-serializer-not-working-with-rails-api-gem
