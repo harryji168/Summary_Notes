@@ -1,0 +1,28 @@
+active model serializer not working with rails-api gem
+
+## solved
+```
+ render json: jobscount , each_serializer: JobswaitforcheckSerializer  
+``` 
+
+### search 
+
+
+
+
+24
+In your BaseController, did you add the include bellow ?
+
+include ActionController::Serialization
+
+
+https://coderedirect.com/questions/579507/active-model-serializer-not-working-with-rails-api-gem
+
+
+
+      render (json: jobscount, each_serializer: JobswaitforcheckSerializer  )
+
+      https://stackoverflow.com/questions/53587217/active-model-serializer-each-serializer-vs-serializer
+
+
+      
