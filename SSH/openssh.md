@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 nstallation
+=======
+installation
+>>>>>>> f44bf2f5b8891b7e38f6b4b5530111af328fe19f
 Installation of the OpenSSH client and server applications is simple. To install the OpenSSH client applications on your Ubuntu system, use this command at a terminal prompt:
 
 sudo apt install openssh-client

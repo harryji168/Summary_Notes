@@ -24,3 +24,9 @@ git push origin main
 remote: error: File supere2021_3.pst is 508.34 MB; this exceeds GitHub's file size limit of 100.00 MB
 remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com
 
+<<<<<<< HEAD
+=======
+
+# large file 
+https://towardsdatascience.com/uploading-large-files-to-github-dbef518fa1a
+>>>>>>> f44bf2f5b8891b7e38f6b4b5530111af328fe19f

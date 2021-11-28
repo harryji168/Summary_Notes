@@ -144,6 +144,7 @@ Type in a terminal or press Alt+F2 and type wine uninstaller will give you acces
 To completely remove the bottle for your user (and thus remove everything from a wine bottle and start again) you can open a terminal and type rm -rf ~/.wine or as an alternative open Nautilus and in your home folder press Ctrl+H, locate the .wine folder and delete it. wine will create a new folder next time you try to use it.
 
 
+<<<<<<< HEAD
 https://askubuntu.com/questions/101064/uninstall-a-program-installed-with-wine#
 
 
@@ -159,3 +160,6 @@ wine uninstaller
 
 
 On the command line, just type this: wine uninstaller. This will launch an Add/Remove applet similar to what you get in Windows, which will list your installed WINE programs. The name and the invocation are definitely not intuitive. Henceforth, the actions are simple.
+=======
+https://askubuntu.com/questions/101064/uninstall-a-program-installed-with-wine#
+>>>>>>> f44bf2f5b8891b7e38f6b4b5530111af328fe19f

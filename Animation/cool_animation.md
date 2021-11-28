@@ -91,4 +91,11 @@ https://codepen.io/asistapl/pen/EKQMmG
 
 https://lottiefiles.com/69030-confetti-full-screen
 
+<<<<<<< HEAD
 https://loading.io/background/m-confetti
+=======
+https://loading.io/background/m-confetti
+
+# online tools
+https://www.textstudio.co/
+>>>>>>> f44bf2f5b8891b7e38f6b4b5530111af328fe19f

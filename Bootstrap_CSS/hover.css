@@ -1,0 +1,10 @@
+use span instead of div
+
+span:hover   { 
+    opacity: 1;
+    border-radius: 3px;
+    border: 1px solid #C91735;
+    background-size: 100% 100%;
+   }
+
+<div class="keyboard"><span>A</span></div>  

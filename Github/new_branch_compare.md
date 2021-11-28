@@ -39,7 +39,11 @@ git commit -m "message"
 ### push to the server
 
 ```sh 
+<<<<<<< HEAD
 git push --set-upstream origin 2019-12-25
+=======
+git push --set-upstream origin Branch
+>>>>>>> f44bf2f5b8891b7e38f6b4b5530111af328fe19f
 ```
 
 
