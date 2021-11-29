@@ -12,3 +12,6 @@ json = '["foo", 1, 1.0, 2.0e2, true, false, null]'
 ruby = JSON.parse(json)
 ruby # => ["foo", 1, 1.0, 200.0, true, false, nil]
 ruby.class # => Array
+
+
+ruby['data'].first["latitude"]
