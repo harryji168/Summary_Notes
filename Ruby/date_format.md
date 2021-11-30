@@ -1,0 +1,1 @@
+https://apidock.com/ruby/DateTime/strftime
