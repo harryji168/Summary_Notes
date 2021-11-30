@@ -16,4 +16,16 @@ class BlogController < ActionController::Base
 end
 
 
+set it for a single view
+
+class BlogController < ActionController::Base
+
+  def index
+    render layout: "unique_blog_layout"
+  end
+
+  ...
+end
+
+
 https://stackoverflow.com/questions/45131041/different-application-layout-for-my-rails-application
