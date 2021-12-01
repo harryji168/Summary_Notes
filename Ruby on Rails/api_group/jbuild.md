@@ -8,6 +8,7 @@ http://geekhmer.github.io/blog/2015/04/29/ruby-on-rails-getting-started-with-jbu
 # builder view directly
 rails g controller products index
 
+http://127.0.0.1:16888/api/v1/jobsdaysum.json
 
 json.jobs  @jobsum do |job|
     json.date job.date
