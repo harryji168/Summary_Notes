@@ -11,3 +11,6 @@ https://www.creative-tim.com/product/material-dashboard-react?partner=104080
 
 
 https://github.com/devias-io/material-kit-react
+
+
+https://tabler-react.com/
