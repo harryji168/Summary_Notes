@@ -72,3 +72,10 @@ import { Routes ,Route } from 'react-router-dom';
 
 ### ./src/app/components/Breadcrumb/Breadcrumb.jsx
 Module not found: Empty dependency (no request)
+
+Use the latest version.
+
+Version 4.6.1 Solve the problem.
+
+Share
+Improve this answer
