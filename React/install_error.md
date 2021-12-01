@@ -79,3 +79,8 @@ Version 4.6.1 Solve the problem.
 
 Share
 Improve this answer
+
+
+###  https://www.npmjs.com/package/react-breadcrumbs
+
+npm install --save react-breadcrumbs
