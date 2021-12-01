@@ -53,3 +53,18 @@ This should work
 
 Share
 Follow
+
+
+
+###### Attempted import error: 'Switch' is not exported from 'react-router-dom'
+
+
+178
+
+In react-router-dom v6, "Switch" is replaced by routes "Routes". You need to update the import from
+
+import { Switch, Route } from "react-router-dom";
+to
+
+import { Routes ,Route } from 'react-router-dom';
+
