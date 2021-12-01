@@ -34,3 +34,6 @@ https://github.com/arecvlohe/rbc-with-dnd-starter
 
 
 ~/test/material-dashboard-react$ 
+
+
+https://github.com/cruip/open-react-template/
