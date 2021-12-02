@@ -70,6 +70,19 @@ import { Routes ,Route } from 'react-router-dom';
 
 
 
+https://stackoverflow.com/questions/67687254/attempted-import-error-switch-is-not-exported-from-react-router
+4
+
+The package you need is react-router-dom:
+
+Install the package(s)
+npm install react-router-dom
+
+Since you are using TypeScript, also install the type definitions:
+
+npm install @types/react-router-dom
+
+
 ### ./src/app/components/Breadcrumb/Breadcrumb.jsx  --not work 
 Module not found: Empty dependency (no request)
 
