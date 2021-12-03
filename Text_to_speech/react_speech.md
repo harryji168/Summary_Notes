@@ -16,3 +16,8 @@ https://codesandbox.io/examples/package/react-speech
 
 
 https://codesandbox.io/s/7w6wm?file=/package.json:272-284
+
+https://mikeyparton.github.io/react-speech-kit/
+
+
+https://github.com/MikeyParton/react-speech-kit
