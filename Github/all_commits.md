@@ -67,3 +67,9 @@ ca5bb89 - stephanie-warmenhoven, 4 weeks ago : Fetch all Questions from API for 
 15c6035 - stephanie-warmenhoven, 4 weeks ago : Added localhost:3001 to whitelist for CORS
 e10308f - stephanie-warmenhoven, 4 weeks ago : http requests and Hacky Sign In
 48647a9 - stephanie-warmenhoven, 4 weeks ago : Lifecycle Methods CurrentDateTime component demo
+
+
+https://stackoverflow.com/questions/46913896/is-there-a-way-to-revert-to-a-previous-commit-in-vs-code
+
+
+Provided that you have GitLens extension installed you should be able to simply select "Restore" action from selected "File history" commit.
