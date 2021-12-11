@@ -33,3 +33,19 @@ Start your Phoenix app with:
 You can also run your app inside IEx (Interactive Elixir) as:
 
     $ iex -S mix phx.server
+
+
+
+
+    ook at config/dev.exs.
+
+...
+# Configure your database
+config :hello, Hello.Repo,
+  username: "postgres",
+  password: "postgres",
+  database: "hello_dev",
+  hostname: "localhost",
+  show_sensitive_data_on_connection_error: true,
+  pool_size: 10
+  
