@@ -39,3 +39,22 @@ You will get output similar as:
 output:
 
 ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
+
+
+############
+
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+
+source ~/.bash_profile
+
+
+https://stackoverflow.com/questions/65817956/your-ruby-version-is-2-7-0-but-your-gemfile-specified-3-0-0
+
+
+
+
+########
+$ gem install rails
+
+
+https://stackoverflow.com/questions/52051122/cant-find-gem-railties-0-a-with-executable-rails-gemgemnotfoundexceptio
