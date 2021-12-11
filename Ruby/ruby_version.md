@@ -32,3 +32,10 @@ To set the global variable run the following command:
 
 $ rbenv global 3.0.0
 Replace the version number with your 
+
+$ ruby -v
+You will get output similar as:
+
+output:
+
+ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
