@@ -5,3 +5,6 @@ NFTs have drawn criticism with respect to the energy cost and carbon footprint a
 
 
 https://www.youtube.com/watch?v=bBKUU2_0uh4
+
+
+https://www.coinbase.com/
