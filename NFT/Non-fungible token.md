@@ -9,4 +9,4 @@ https://www.youtube.com/watch?v=bBKUU2_0uh4
 
 https://www.coinbase.com/
 
-eth
+https://ethereum.org/en/
