@@ -10,3 +10,5 @@ https://www.youtube.com/watch?v=bBKUU2_0uh4
 https://www.coinbase.com/
 
 https://ethereum.org/en/
+ 
+https://opensea.io/
