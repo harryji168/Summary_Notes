@@ -1,0 +1,1 @@
+ Cpanel -> Domains => 	Force HTTPS Redirect set to on
