@@ -16,3 +16,10 @@ http://superuser.com/questions/689056/how-can-i-convert-github-flavored-markdown
 
 pip install grip  
 grip your_markdown.md
+
+
+
+Node.js
+http://superuser.com/questions/689056/how-can-i-convert-github-flavored-markdown-to-a-pdf You can also use Node.js based markdown-pdf
+
+npm install -g markdown-pdf
