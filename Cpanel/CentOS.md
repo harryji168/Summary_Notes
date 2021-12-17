@@ -31,3 +31,24 @@ exclude=postgresql*
 ### 
 
 sudo yum install https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
+
+
+## Step 2 — Creating a New PostgreSQL Database Cluster
+You have to create a new PostgreSQL database cluster before you can use your Postgres database. A database cluster is a collection of databases that are managed by a single server instance. Creating a database cluster consists of creating the directories in which the database data will be placed, generating the shared catalog tables, and creating the template1 and postgres databases.
+
+The template1 database is needed to create a new database. Everything that is stored in it will be placed in a new database when it is created. A postgres database is a default database designed for use by users, utilities, and third-party applications.
+
+Create a new PostgreSQL database cluster with initdb:
+
+sudo /usr/pgsql-11/bin/postgresql-11-setup initdb
+ 
+You will see the following output:
+
+Output
+Initializing database ... OK
+Now start and enable PostgreSQL using systemctl:
+
+sudo systemctl start postgresql-11
+sudo systemctl enable postgresql-11
+ 
+This will give the following output
