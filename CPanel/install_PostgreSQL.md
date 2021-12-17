@@ -16,3 +16,7 @@ Confirm your new password, and click Change Password.
 Warning:
 Only use letters and numbers. Non-alphanumeric characters can cause errors to occur.
 Import your databases. To do this, run the following command:
+
+
+### 
+https://www.knownhost.com/kb/how-to-configure-cpanel-mysql-mariadb-or-postgresql-for-remote-connections/
