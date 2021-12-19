@@ -92,3 +92,6 @@ Host *
 
 
 ssh harryji@127.0.0.1
+
+ssh port 22 
+set fire
