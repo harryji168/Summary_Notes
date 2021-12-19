@@ -81,4 +81,14 @@ You are now logged in to your Ubuntu machine.
 # sudo ufw allow ssh
 
 
-# https://www.tecmint.com/fix-ssh-too-many-authentication-failures-error/
+# hhttps://www.tecmint.com/fix-ssh-too-many-authentication-failures-error/
+
+
+$ vim ~/.ssh/config
+Add the following configuration in the file, under the Host * section as shown in the screesnhot.
+
+Host * 
+       	IdentitiesOnly=yes
+
+
+ssh harryji@127.0.0.1
