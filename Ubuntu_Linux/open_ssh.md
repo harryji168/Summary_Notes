@@ -94,4 +94,6 @@ Host *
 ssh harryji@127.0.0.1
 
 ssh port 22 
-set fire
+set firewall
+
+Your Public IPv4 is: 107.190.28.28
