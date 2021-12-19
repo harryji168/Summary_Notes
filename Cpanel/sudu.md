@@ -22,3 +22,8 @@ sudo yum install -y yarn
 
 
 https://linuxize.com/post/how-to-install-ruby-on-centos-7/
+
+
+
+# https://www.tec-teach.com/2018/11/how-to-install-latest-nodejs-and-react.html
+npm -v
