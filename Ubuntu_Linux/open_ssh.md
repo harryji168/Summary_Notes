@@ -75,3 +75,7 @@ Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-26-generic x86_64)
 Copy
 You are now logged in to your Ubuntu machine.
 
+
+
+
+# sudo ufw allow ssh
