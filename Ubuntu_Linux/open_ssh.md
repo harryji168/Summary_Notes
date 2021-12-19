@@ -79,3 +79,6 @@ You are now logged in to your Ubuntu machine.
 
 
 # sudo ufw allow ssh
+
+
+# https://www.tecmint.com/fix-ssh-too-many-authentication-failures-error/
