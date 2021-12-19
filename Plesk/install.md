@@ -4,6 +4,8 @@ https://get.plesk.com/
 https://serverfault.com/questions/423245/wget-starts-downloading-then-stops-cannot-write-to
 
 
+https://github.com/plesk
+
 sudo su
 
 
