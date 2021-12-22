@@ -2,19 +2,19 @@
 
 ###  扁豆, 泡， 煮 15mins  Lentils, soak and cook for 15mins
 
-![](https://github.com/harryji168/private_folder/blob/1e74045a988b3c87a611517b2174f93c1476118d/contact/suppiler/healthy/cooking/11_cooking/IMG_0097.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/6927513929775729d3fae6218d3fb5941a94aad3/Others/cooking/11_cooking/IMG_0097.jpeg)
 
 
 ### 七彩 西芹，荷蘭豆，胡蘿蔔，香菇，筍，馬蹄 Colorful celery, snow peas, carrots, shiitake mushrooms, bamboo shoots, horseshoe
-![](https://github.com/harryji168/private_folder/blob/2fd46e2cf99279c1859c58c0bbdad32541cf99ff/contact/suppiler/healthy/cooking/11_cooking/cai.png)
+![](https://github.com/harryji168/Summary_Notes/blob/6927513929775729d3fae6218d3fb5941a94aad3/Others/cooking/11_cooking/cai.png)
 
 
 ### 日本南瓜  開水蒸 15分鐘 Japanese Pumkin
-![](https://github.com/harryji168/private_folder/blob/debfc6d6485aaff1eed164ff3bf46dda571a1a92/contact/suppiler/healthy/cooking/11_cooking/IMG_0106.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/6927513929775729d3fae6218d3fb5941a94aad3/Others/cooking/11_cooking/IMG_0106.jpeg)
 
 
 ### 七彩食材 焯水 加鹽，糖 (有味道），油 （表面更亮） Colorful ingredients, blanched water, add salt, sugar (flavor), oil (the surface is brighter)
-![](https://github.com/harryji168/private_folder/blob/debfc6d6485aaff1eed164ff3bf46dda571a1a92/contact/suppiler/healthy/cooking/11_cooking/IMG_0126.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/6927513929775729d3fae6218d3fb5941a94aad3/Others/cooking/11_cooking/IMG_0126.jpeg)
 
 
 ### 用蒜熗鍋 Use garlic stew
