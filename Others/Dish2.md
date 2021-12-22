@@ -18,24 +18,24 @@
 
 
 ### 用蒜熗鍋 Use garlic stew
-![](https://github.com/harryji168/private_folder/blob/debfc6d6485aaff1eed164ff3bf46dda571a1a92/contact/suppiler/healthy/cooking/11_cooking/IMG_0129.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/master/Others/cooking/11_cooking/IMG_0129.jpeg)
 
 ### 加料酒蠔油 Add cooking wine oyster sauce
-![](https://github.com/harryji168/private_folder/blob/debfc6d6485aaff1eed164ff3bf46dda571a1a92/contact/suppiler/healthy/cooking/11_cooking/IMG_0130.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/0485290108cf860d8e42cb618c6525ffe037897e/Others/cooking/11_cooking/IMG_0130.jpeg)
 
 ### 加扁豆，鹽，糖,蘑菇粉 Add lentils, salt, sugar, Mushroom powder
-![](https://github.com/harryji168/private_folder/blob/debfc6d6485aaff1eed164ff3bf46dda571a1a92/contact/suppiler/healthy/cooking/11_cooking/IMG_0131.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/0485290108cf860d8e42cb618c6525ffe037897e/Others/cooking/11_cooking/IMG_0131.jpeg)
 
 # 加油 add oil
-![](https://github.com/harryji168/private_folder/blob/debfc6d6485aaff1eed164ff3bf46dda571a1a92/contact/suppiler/healthy/cooking/11_cooking/IMG_0134.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/0485290108cf860d8e42cb618c6525ffe037897e/Others/cooking/11_cooking/IMG_0134.jpeg)
 
 # 煸炒  Stir-fried
-![](https://github.com/harryji168/private_folder/blob/debfc6d6485aaff1eed164ff3bf46dda571a1a92/contact/suppiler/healthy/cooking/11_cooking/IMG_0135.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/0485290108cf860d8e42cb618c6525ffe037897e/Others/cooking/11_cooking/IMG_0135.jpeg)
 
 # 放入南瓜盅 Put in the pumpkin cup
-![](https://github.com/harryji168/private_folder/blob/debfc6d6485aaff1eed164ff3bf46dda571a1a92/contact/suppiler/healthy/cooking/11_cooking/IMG_0136.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/0485290108cf860d8e42cb618c6525ffe037897e/Others/cooking/11_cooking/IMG_0136.jpeg)
 
 
 # 上桌 Final 
 
-![](https://github.com/harryji168/private_folder/blob/305ec4efeaa016d9665f44b9d577168de4c731f2/contact/suppiler/healthy/cooking/11_cooking/IMG_0137.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/0485290108cf860d8e42cb618c6525ffe037897e/Others/cooking/11_cooking/IMG_0137.jpeg)
