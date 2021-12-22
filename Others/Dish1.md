@@ -1,6 +1,6 @@
 # 北菇海參雞煲 山藥香菇雞海參煲（美味又健康的菜餚，有助於降低血壓)   Braised Sea Cucumber and Chicken with Shiitake Mushrooms
 
-![](https://github.com/harryji168/Summary_Notes/blob/master/Others/cooking/11_cooking/IMG_0117.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/5cb7d1b03c7ae1a63e61e0a8466657060afe1897/Others/cooking/11_cooking/IMG_0117.jpeg)
 
 ### 食材：雞半隻 發好海參200g 北菇50g 鲜淮山 (山葯)100g 
 Ingredients: half chicken, 200g rehydrated sea cucumber, 50g shiitake mushrooms, mountain yam 100 g
@@ -19,19 +19,19 @@ Directions: 1. Cut garlic and ginger into small pieces. Mince shallots.
 2. Wash and cut chicken into pieces. Cut shiitake mushrooms in half. Cut sea cucumber into pieces
 
 <!-- ### 醃製雞塊香菇 Marinated Chicken Nuggets and Shiitake Mushrooms -->
-![](https://github.com/harryji168/Summary_Notes/blob/master/Others/cooking/11_cooking/IMG_0099.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/5cb7d1b03c7ae1a63e61e0a8466657060afe1897/Others/cooking/11_cooking/IMG_0099.jpeg)
 
 <!-- ### 煸炒雞塊 Stir fried chicken nuggets -->
-![](https://github.com/harryji168/Summary_Notes/blob/master/Others/cooking/11_cooking/IMG_0103.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/5cb7d1b03c7ae1a63e61e0a8466657060afe1897/Others/cooking/11_cooking/IMG_0103.jpeg)
 
 ### 3:用少許生抽 蠔油 糖 鹽 撈雞備用; 鲜淮山 (山葯)飛水
 3. Marinate the chopped chicken with light soy sauce, oyster sauce, sugar, and salt. Blanch mountain yam in boiling water.
 
 <!-- ### 山藥去皮 Yam peeled -->
-![](https://github.com/harryji168/Summary_Notes/blob/master/Others/cooking/11_cooking/IMG_0104.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/5cb7d1b03c7ae1a63e61e0a8466657060afe1897/Others/cooking/11_cooking/IMG_0104.jpeg)
 
 <!-- ### 山藥焯水 Yam blanched water -->
-![](https://github.com/harryji168/Summary_Notes/blob/master/Others/cooking/11_cooking/IMG_0105.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/5cb7d1b03c7ae1a63e61e0a8466657060afe1897/Others/cooking/11_cooking/IMG_0105.jpeg)
 
 ### 4:用少許油起鍋 加入蒜 姜 紅蔥頭 爆香 放人冬菇繼續炒香 加水（或雞湯）大火煮開後轉小火炆三十分鐘
 4. Heat oil in a pot. Add garlic, ginger, shallots and cook until fragrant. Then add shiitake mushrooms and stir-fry well. Add water (or chicken broth) and bring to a boil. Simmer for 30 minutes.
