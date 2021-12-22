@@ -37,24 +37,24 @@ Directions: 1. Cut garlic and ginger into small pieces. Mince shallots.
 4. Heat oil in a pot. Add garlic, ginger, shallots and cook until fragrant. Then add shiitake mushrooms and stir-fry well. Add water (or chicken broth) and bring to a boil. Simmer for 30 minutes.
 
 <!-- ### 蔥薑蒜熗鍋 Green onion ginger garlic stew pot -->
-![](https://github.com/harryji168/Summary_Notes/blob/master/Others/cooking/11_cooking/IMG_0107.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/5cb7d1b03c7ae1a63e61e0a8466657060afe1897/Others/cooking/11_cooking/IMG_0107.jpeg)
 
 ### 5:熱鍋放一湯匙油 放入蒜 姜 紅蔥頭 爆香 把雞倒進鍋里炒勻 放一茶匙酒炒勻後倒入炆北菇的煲里
 5. Add 1 tbsp cooking oil to a hot pan. Add garlic, ginger and shallot and stir-fry until fragrant. Add chicken and 1 tsp cooking wine and stir-fry well. Then, transfer to the pot used in step 4.
 <!-- ### 加雞塊山藥煸炒 Stir fry with chicken nuggets and yam -->
-![](https://github.com/harryji168/Summary_Notes/blob/master/Others/cooking/11_cooking/IMG_0108.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/609168a3f4a580bd0dc031b4e7a4ad60b672af3a/Others/cooking/11_cooking/IMG_0108.jpeg)
 
 ### 6:熱鍋放一湯匙油 放蒜 姜 紅蔥頭 爆香 海參 加蠔油 糖 生抽 老抽炒勻 加少量水煮勻 倒入炆北菇的煲里 一起炆大約十分鐘左右
 6. Add 1 tbsp cooking oil to a hot pan. Add garlic, ginger and shallot and stir-fry until fragrant. Stir-fry sea cucumber with oyster sauce, sugar, light soy sauce and dark soy sauce. Add some water and bring to a boil. Then, transfer to the pot used in step 4. Simmer for 10 minutes.
 <!-- ### 加熱水煮 Add Heat Water boiled -->
-![](https://github.com/harryji168/Summary_Notes/blob/master/Others/cooking/11_cooking/IMG_0109.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/609168a3f4a580bd0dc031b4e7a4ad60b672af3a/Others/cooking/11_cooking/IMG_0109.jpeg)
 
 ### 7:炆好後 用少許生粉麻油打芡
 7. Use potato starch to thicken the soup. Season with sesame oil.
 <!-- ### 加澱粉勾芡 Add starch thicken -->
-![](https://github.com/harryji168/Summary_Notes/blob/master/Others/cooking/11_cooking/IMG_0110.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/609168a3f4a580bd0dc031b4e7a4ad60b672af3a/Others/cooking/11_cooking/IMG_0110.jpeg)
  
 ### 8:加二條元茜上面即可
 8. Serve with 2 parsley stalks.
 <!-- ### 擺盤 final plate -->
-![](https://github.com/harryji168/Summary_Notes/blob/master/Others/cooking/11_cooking/IMG_0117.JPG)
+![](https://github.com/harryji168/Summary_Notes/blob/609168a3f4a580bd0dc031b4e7a4ad60b672af3a/Others/cooking/11_cooking/IMG_0117.jpeg)
