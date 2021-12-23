@@ -27,15 +27,15 @@ psyllium husk poweder 车前子壳粉
 ![](https://github.com/harryji168/Summary_Notes/blob/f7659d0a625d5a60c6f10348bfe90ae8355e6211/Others/cooking/11_cooking/IMG_0242.JPG)
  
 
- ### 加扁豆
+ ### 加扁豆 Lentils
  ![](https://github.com/harryji168/Summary_Notes/blob/f7659d0a625d5a60c6f10348bfe90ae8355e6211/Others/cooking/11_cooking/IMG_0243.JPG)
 
- ### 加车前子壳粉
+ ### 加车前子壳粉  psyllium husk poweder
 
  ![](https://github.com/harryji168/Summary_Notes/blob/7396c6be65450bc95f53c9eedd71bd29dff7d4b3/Others/cooking/11_cooking/IMG_0254.JPG
 
 
-### 排骨
+### 排骨收汁
 
   ![](https://github.com/harryji168/Summary_Notes/blob/7396c6be65450bc95f53c9eedd71bd29dff7d4b3/Others/cooking/11_cooking/IMG_0259.JPG)
 
