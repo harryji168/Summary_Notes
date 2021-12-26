@@ -13,3 +13,12 @@ Please remove any global installs with one of the following commands:
 
 The latest instructions for creating a new app can be found here:
 https://create-react-app.dev/docs/getting-started/
+
+
+
+npx create-react-app button_group
+
+
+You are running Node 12.18.4.
+Create React App requires Node 14 or higher. 
+Please update your version of Node.
