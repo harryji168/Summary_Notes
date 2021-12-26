@@ -1,0 +1,1 @@
+get2.adobe.com/reader
