@@ -26,6 +26,13 @@ Then configure your database in config/dev.exs and run:
 
     $ mix ecto.create
 
+demo\dev.exs
+# Configure your database
+config :demo, Demo.Repo,
+  username: "harryji",
+  password: "12345678",
+
+
 Start your Phoenix app with:
 
     $ mix phx.server
