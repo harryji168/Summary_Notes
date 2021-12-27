@@ -1,0 +1,1 @@
+https://linuxconfig.org/how-to-remove-nginx-from-ubuntu
