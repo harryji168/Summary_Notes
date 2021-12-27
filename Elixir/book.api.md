@@ -22,10 +22,12 @@ You can also run your app inside IEx (Interactive Elixir) as:
     $ iex -S mix phx.server
 
 
+$ mix phx.new books_api --no-html --no-webpack --binary-id && cd books_api
 
 $ mix ecto.migrate
 
-
+$ mix phx.gen.json Store Book books \
+title:string isbn:text:unique description:text price:float authors:array:string --no-context --no-schema
 
 Installing Phoenix
 Now that we have Elixir and Erlang ready, let’s install the Phoenix application bootstrapping script with:
