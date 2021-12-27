@@ -5,3 +5,5 @@ Step 1 – Installing Nginx
 
 sudo apt update
 sudo apt install nginx
+
+How To Install Linux, Nginx, MySQL, PHP (LEMP stack) on Ubuntu 20.04
