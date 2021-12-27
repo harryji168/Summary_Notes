@@ -3,3 +3,11 @@ Add Erlang Solutions repository: wget https://packages.erlang-solutions.com/erla
 Run: sudo apt-get update
 Install the Erlang/OTP platform and all of its applications: sudo apt-get install esl-erlang
 Install Elixir: sudo apt-get install elixir
+
+Checking the installed version of Elixir
+elixir --version
+
+
+Erlang/OTP 24 [erts-12.1.5] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [jit]
+
+Elixir 1.13.0 (compiled with Erlang/OTP 24)
