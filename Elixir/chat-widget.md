@@ -33,3 +33,6 @@ Sync with Slack (beta)
 Sync with Slack (beta)
 Sync messages from your Slack channels with Papercups.
 Not connected	--	
+
+
+https://opensourcelibs.com/libs/phoenix-framework
