@@ -1,6 +1,6 @@
 https://www.dairon.org/2020/07/06/simple-rest-api-with-elixir-phoenix.html
 
-https://github.com/codeadict/phx_books_api
+
 
 
 Run in your terminal:
