@@ -40,3 +40,6 @@ Start your Phoenix app with:
 You can also run your app inside IEx (Interactive Elixir) as:
 
     $ iex -S mix phx.server
+
+
+https://www.dairon.org/2020/07/06/simple-rest-api-with-elixir-phoenix.html
