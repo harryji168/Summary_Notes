@@ -8,3 +8,7 @@ Or add the following line to your shell configuration file:
 
 Or install it globally on your system:
   mv /home/harryji/.symfony/bin/symfony /usr/local/bin/symfony
+
+
+
+  composer require symfony/all-my-sms-notifier
