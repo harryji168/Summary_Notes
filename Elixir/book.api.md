@@ -23,7 +23,7 @@ You can also run your app inside IEx (Interactive Elixir) as:
 
 
 
-
+$ mix ecto.migrate
 
 
 
