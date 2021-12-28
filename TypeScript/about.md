@@ -10,3 +10,6 @@ npm install -g typescript
 For our nightly builds:
 
 npm install -g typescript@next
+
+
+node built/local/tsc.js hello.ts
