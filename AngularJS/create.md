@@ -1,1 +1,1 @@
-ng new my-app
+ng new angular-app
