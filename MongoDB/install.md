@@ -25,3 +25,7 @@ harryji@distracted-khorana:~/TypeScript$ sudo systemctl status mongod
              └─60313 /usr/bin/mongod --config /etc/mongod.conf
 
 Dec 27 19:43:53 distracted-khorana.107-190-28-28.plesk.page systemd[1]: Started MongoDB Database Server.
+
+
+
+use VSS extension
