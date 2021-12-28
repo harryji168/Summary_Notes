@@ -7,3 +7,9 @@ https://www.glideapps.com/
 
 
 https://github.com/bumptech/glide/releases
+
+
+
+https://go.glideapps.com/o/Crkr4SH7EHIZ0jt0d1TP
+
+https://painful-texture-2005.glideapp.io/
