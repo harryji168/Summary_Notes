@@ -14,3 +14,7 @@ Test - The stage where code is tested. Automation here can save both time and ef
 Release - The stage where the application is delivered to the repository.
 Deploy - In this stage code is deployed to production.
 Validation and compliance - The steps to validate a build are determined by the needs of your organization. Image security scanning tools, like Clair, can ensure the quality of images by comparing them to known vulnerabilities (CVEs).
+
+
+
+Traditional CI/CD systems are designed for pipelines that use virtual machines, but cloud-native app dev brings advantages to CI/CD pipelines. What does a CI/CD pipeline with containers look like?
