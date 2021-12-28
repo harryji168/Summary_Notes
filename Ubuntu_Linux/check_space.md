@@ -8,7 +8,7 @@ is also called Disk Usage Analyzer on Ubuntu.
 
 Here's a sample screenshot of baobab:
 
-
+sudo apt-get install -y baobab
 
 
 gnome-system-monitor or df -h or lsblk
