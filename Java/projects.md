@@ -4,3 +4,6 @@ https://www.upgrad.com/blog/java-projects-on-github/
 
 5. Glide
 https://www.glideapps.com/
+
+
+https://github.com/bumptech/glide/releases
