@@ -7,3 +7,4 @@ Before you can use Django, you’ll need to install it. Our complete installatio
 
 sudo apt-get install python3-pip
 pip
+git clone https://github.com/django/django.git
