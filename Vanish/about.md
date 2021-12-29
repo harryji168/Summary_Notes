@@ -2,3 +2,12 @@ Varnish is an HTTP accelerator designed for content-heavy dynamic web sites as w
 
 
 2006
+
+
+https://github.com/varnishcache/varnish-cache
+
+
+https://www.abadcer.com/varnish-cache-example-ssl-offloading/
+
+
+https://varnish-cache.org/docs/trunk/tutorial/
