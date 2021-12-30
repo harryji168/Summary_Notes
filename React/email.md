@@ -1,6 +1,3 @@
-https://www.emailjs.com/
-
-
 https://www.emailjs.com/docs/examples/reactjs/
 
 import React, { useRef } from 'react';
