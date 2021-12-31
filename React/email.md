@@ -31,3 +31,7 @@ export const ContactUs = () => {
 };
 
 https://www.jsdelivr.com/features
+
+
+
+https://javascript.plainenglish.io/email-from-your-react-project-w-emailjs-d6af68fa5c17
