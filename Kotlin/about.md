@@ -21,3 +21,6 @@ sdk version
 https://kotlinlang.org/docs/command-line.html#install-the-compiler
 
 $ sdk install kotlin
+
+
+java -jar hello.jar
