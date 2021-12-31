@@ -10,3 +10,6 @@ sudo apt install mariadb-server mariadb-client
 
 composer -V
 sudo composer self-update
+
+
+https://computingforgeeks.com/install-cakephp-framework-on-ubuntu/
