@@ -9,3 +9,7 @@ chmod +x bin/cake
 
 php --ini |grep Loaded
 Loaded Configuration File:         /etc/php/8.0/cli/php.ini
+
+
+
+sudo apt install cakephp-scripts
