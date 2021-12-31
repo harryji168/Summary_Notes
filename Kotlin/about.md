@@ -16,3 +16,8 @@ https://sdkman.io/install
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk version
+
+
+https://kotlinlang.org/docs/command-line.html#install-the-compiler
+
+$ sdk install kotlin
