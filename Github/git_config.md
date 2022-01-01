@@ -1,0 +1,3 @@
+git config --list
+
+https://stackoverflow.com/questions/37505843/fatal-unable-to-get-credential-storage-lock-file-exists
