@@ -27,7 +27,7 @@ $ pip install Flask
 
 
 
-
+python examples/sqla/run_server.py
 
 
 install git
