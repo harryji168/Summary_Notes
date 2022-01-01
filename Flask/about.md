@@ -24,3 +24,20 @@ Install Flask
 Within the activated environment, use the following command to install Flask:
 
 $ pip install Flask
+
+
+
+
+
+
+install git
+git clone https://github.com/Vukan-Markovic/Book-evaluator.git
+install python
+install python3
+install virtualenv
+virtualenv -p python3 venv
+source venv/bin/activate
+pip install -r requirements.txt
+export FLASK_APP=application.py
+export FLASK_DEBUG=1
+flask run App is running on http://127.0.0.1:5000.
