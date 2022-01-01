@@ -4,3 +4,23 @@ Applications that use the Flask framework include Pinterest and LinkedIn.[4][5
 
 
 Written in	Python
+
+
+Create an environment
+Create a project folder and a venv folder within:
+
+macOS/LinuxWindows
+$ mkdir myproject
+$ cd myproject
+$ python3 -m venv venv
+Activate the environment
+Before you work on your project, activate the corresponding environment:
+
+macOS/LinuxWindows
+$ . venv/bin/activate
+Your shell prompt will change to show the name of the activated environment.
+
+Install Flask
+Within the activated environment, use the following command to install Flask:
+
+$ pip install Flask
