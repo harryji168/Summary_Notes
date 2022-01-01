@@ -29,3 +29,23 @@ After installation, use the Desktop Applications launcher to start AnyDesk on Ub
 $ anydesk
 Enter AnyDesk Address of remote server or share yours for a remote user to connect to your machine. 
 
+
+
+
+http://deb.anydesk.com/howto.html
+
+AnyDesk DEB repository how-to
+Run the following commands as root user:
+
+- add repository key to Trusted software providers list
+
+wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
+- add the repository:
+
+echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list
+- update apt cache:
+
+apt update
+- install anydesk:
+
+apt install anydesksh 
