@@ -11,3 +11,8 @@ CREATE DATABASE myproject;
 GRANT ALL ON myproject.* to 'myproject_user'@'localhost' IDENTIFIED BY 'StrongPassword';
 FLUSH PRIVILEGES;
 QUIT;
+
+
+need disable in /config/app_local.php
+
+ // 'url' => env('DATABASE_TEST_URL', 'sqlite://127.0.0.1/tests.sqlite'),
