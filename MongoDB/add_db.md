@@ -33,3 +33,14 @@ mongo
 Note: Make sure you keep the mongod window open! You won’t be able to interact with the Mongo Shell if you close the mongod window.
 
 First, we need a database to work with. You can see the currently selected database with the db command. (By default, you should be on the test database).
+
+
+https://stackoverflow.com/questions/38543252/how-can-i-create-a-database-with-a-user-name-and-password-in-mongodb-in-mongodb
+
+db.createUser(
+   {
+     user: "myuser",
+     pwd: "mypassword",
+     roles: [ "dbOwner" ]
+   }
+)
