@@ -14,7 +14,8 @@ sudo systemctl start mongod
 # Verify that MongoDB has started successfully.¶
 
 
-harryji@distracted-khorana:~/TypeScript$ sudo systemctl status mongod
+harryji@distracted-khorana:~/TypeScript
+$ sudo systemctl status mongod
 ● mongod.service - MongoDB Database Server
      Loaded: loaded (/lib/systemd/system/mongod.service; disabled; vendor preset: enabled)
      Active: active (running) since Mon 2021-12-27 19:43:53 PST; 11s ago
