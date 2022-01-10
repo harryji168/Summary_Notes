@@ -6,5 +6,6 @@ https://itsfoss.com/use-windows-applications-linux/
 
 sudo apt install playonlinux
 
-
-winetricks
+# wine
+# playonlinux
+# winetricks
