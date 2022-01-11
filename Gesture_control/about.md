@@ -15,3 +15,5 @@ https://use-gesture.netlify.app/
 
 https://github.com/andypotato/fingerpose
 https://github.com/tensorflow/tfjs-models/tree/master/handpose
+
+https://storage.googleapis.com/tfjs-models/demos/handtrack/index.html
