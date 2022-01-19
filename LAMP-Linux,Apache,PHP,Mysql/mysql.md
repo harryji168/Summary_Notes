@@ -34,3 +34,5 @@ mysql -u harry -p
 
 
 CREATE DATABASE laravel DEFAULT CHARACTER SET = 'utf8mb4';
+
+https://github.com/joselfonseca/laravel-api
