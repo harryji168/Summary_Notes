@@ -22,3 +22,7 @@ sudo apt purge mysql-server
 sudo apt autoremove
 sudo apt autoclean
 sudo apt remove dbconfig-mysql
+
+
+
+CREATE USER 'harry'@'localhost' IDENTIFIED BY 'password';
