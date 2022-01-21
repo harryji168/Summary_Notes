@@ -12,3 +12,7 @@ run php artisan serve
 
 
 ## https://blog.pusher.com/react-laravel-application/
+
+
+    $ cd tasksman
+    $ php artisan preset react
