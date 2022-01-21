@@ -47,3 +47,7 @@ $parameter->getClass()** with **$parameter->getType()->getName() .
 
 ### https://developer.okta.com/blog/2018/12/06/crud-app-laravel-react
 https://github.com/oktadev/okta-php-trivia-react
+mysql -uharry -p
+CREATE DATABASE trivia CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+GRANT ALL on trivia.* to trivia@127.0.0.1 identified by 'trivia';
+quit
