@@ -8,3 +8,7 @@ composer install
 
 then 
 run php artisan serve
+
+
+
+## https://blog.pusher.com/react-laravel-application/
