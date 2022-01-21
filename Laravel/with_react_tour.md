@@ -16,7 +16,13 @@ run php artisan serve
 
     $ cd tasksman
     $ php artisan preset react
-
+https://exerror.com/solved-root-composer-json-requires-php-7-3-but-your-php-version-8-0-0-does-not-satisfy-that-requirement-in-laravel/
 Problem 1
     - Root composer.json requires php ^7.1.3 but your php version (8.0.14) does not satisfy that requirement.
+
+
+     "php": "^7.1.3 | ^8.0 ",
   
+or 
+
+composer install --ignore-platform-reqs
