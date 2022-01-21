@@ -16,7 +16,7 @@ run php artisan serve
 
     $ cd tasksman
     $ php artisan preset react
-https://exerror.com/solved-root-composer-json-requires-php-7-3-but-your-php-version-8-0-0-does-not-satisfy-that-requirement-in-laravel/
+### https://exerror.com/solved-root-composer-json-requires-php-7-3-but-your-php-version-8-0-0-does-not-satisfy-that-requirement-in-laravel/
 Problem 1
     - Root composer.json requires php ^7.1.3 but your php version (8.0.14) does not satisfy that requirement.
 
@@ -26,3 +26,20 @@ Problem 1
 or 
 
 composer install --ignore-platform-reqs
+
+
+### https://stackoverflow.com/questions/67949669/reflectionparametergetclass-method-deprecated-in-php-8-0-1
+
+
+because ReflectionParameter::getClass() is deprecated in php 8 .
+
+solution go to
+
+vendor\laravel\framework\src\Illuminate\Container\Container.php
+and go to
+
+protected function resolvePrimitive(ReflectionParameter $parameter)
+
+and replace
+
+$parameter->getClass()** with **$parameter->getType()->getName() .
