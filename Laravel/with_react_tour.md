@@ -5,3 +5,6 @@ PHP Fatal error:  Uncaught Error: Failed opening required '/home/harryji/test/gu
 
 run 
 composer install
+
+then 
+run php artisan serve
