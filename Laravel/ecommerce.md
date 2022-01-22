@@ -1,4 +1,4 @@
-9 Best Laravel eCommerce Packages in 2021
+9 Best crePackages in 2021
 By
 Editorial Staff
 July 14, 2021
