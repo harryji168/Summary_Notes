@@ -118,3 +118,8 @@ php artisan config:cache
 
 
 composer create-project laravel/laravel php-laravel-project-crud
+
+
+yarn
+
+yarn dev
