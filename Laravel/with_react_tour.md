@@ -83,7 +83,7 @@ Laravel Framework 8.80.0
 
 mysql -u harry -p
 
-Drop DATABASE laravel
+Drop DATABASE laravel;
 CREATE DATABASE laravel DEFAULT CHARACTER SET = 'utf8mb4';
 
 quit
