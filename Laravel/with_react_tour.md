@@ -71,3 +71,9 @@ CREATE DATABASE laravel DEFAULT CHARACTER SET = 'utf8mb4';
 
 check react 
 npm view react version
+17.0.2
+
+check Laravel
+
+php artisan --version
+Laravel Framework 8.80.0
