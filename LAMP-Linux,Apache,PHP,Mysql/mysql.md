@@ -32,7 +32,8 @@ FLUSH PRIVILEGES;
 
 mysql -u harry -p
 
-
+Drop DATABASE laravel
 CREATE DATABASE laravel DEFAULT CHARACTER SET = 'utf8mb4';
 
+quit
 https://github.com/joselfonseca/laravel-api
