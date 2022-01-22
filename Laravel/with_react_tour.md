@@ -146,3 +146,11 @@ php artisan key:generate
 php artisan config:cache
 
 # 4. 
+yarn install
+yarn dev
+
+# 5. php artisan migrate --seed
+
+# 6.  php artisan serve
+
+# 7. http://127.0.0.1:8000/login
