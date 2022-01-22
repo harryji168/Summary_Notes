@@ -131,3 +131,18 @@ https://laravel.com/docs/8.x/sanctum
 
 
 https://dev.to/theme_selection/the-best-laravel-tutorials-for-beginners-3nf0
+
+
+# 1. composer install
+# 2. mysql -u harry -p
+
+Drop DATABASE laravel;
+CREATE DATABASE laravel DEFAULT CHARACTER SET = 'utf8mb4';
+
+quit
+
+# 3. 
+php artisan key:generate
+php artisan config:cache
+
+# 4. 
