@@ -95,3 +95,12 @@ npm install
 npm run dev for react build
 php artisan db:seed
 php artisan serve
+
+
+## https://github.com/DnD-Montreal/session-tome
+
+cp .env.example .env
+# Before proceeding make sure to set APP_ENV=production in the .env to automate running migrations
+# use Docker to run the required set-up commands
+docker compose run --rm --no-deps php bash -ci "composer install && php artisan key:generate"
+docker compose run --rm --no-deps node bash -ci 'yarn install && yarn run prod'
