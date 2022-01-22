@@ -62,3 +62,8 @@ php artisan serve
 
 
 ### https://github.com/moeen-basra/laravel-react
+
+mysql -u harry -p
+
+
+CREATE DATABASE laravel DEFAULT CHARACTER SET = 'utf8mb4';
