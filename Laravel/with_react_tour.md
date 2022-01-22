@@ -59,3 +59,6 @@ composer install --ignore-platform-reqs
 php artisan key:generate
 php artisan migrate
 php artisan serve
+
+
+### https://github.com/moeen-basra/laravel-react
