@@ -111,3 +111,7 @@ php artisan vendor:publish --provider="Backpack\CRUD\BackpackServiceProvider" --
 
 
 php artisan migrate --seed
+
+
+php artisan key:generate
+php artisan config:cache
