@@ -77,3 +77,21 @@ check Laravel
 
 php artisan --version
 Laravel Framework 8.80.0
+
+
+# https://github.com/cinovic-llp/laravel-react-starterkit
+
+mysql -u harry -p
+
+Drop DATABASE laravel
+CREATE DATABASE laravel DEFAULT CHARACTER SET = 'utf8mb4';
+
+quit
+
+git clone
+create a .env file copy content from .env.example and update the values
+composer install
+npm install
+npm run dev for react build
+php artisan db:seed
+php artisan serve
