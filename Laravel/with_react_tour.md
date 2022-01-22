@@ -115,3 +115,6 @@ php artisan migrate --seed
 
 php artisan key:generate
 php artisan config:cache
+
+
+composer create-project laravel/laravel php-laravel-project-crud
