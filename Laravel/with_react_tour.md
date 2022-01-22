@@ -67,3 +67,7 @@ mysql -u harry -p
 
 
 CREATE DATABASE laravel DEFAULT CHARACTER SET = 'utf8mb4';
+
+
+check react 
+npm view react version
