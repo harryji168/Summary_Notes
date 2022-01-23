@@ -154,3 +154,38 @@ yarn dev
 # 6.  php artisan serve
 
 # 7. http://127.0.0.1:8000/login
+
+
+
+## 8. add seeder file
+
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+
+class DatabaseSeeder extends Seeder
+{
+    /**
+     * Run the database seeders.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        // DB::table('users')->insert([
+        //     'name' => Str::random(10),
+        //     'email' => Str::random(10).'@gmail.com',
+        //     'password' => Hash::make('password'),
+        // ]);
+        DB::table('users')->insert([
+            'name' => "harry",
+            'email' => 'jiharry@hotmail.com',
+            'password' => Hash::make('password'),
+        ]);
+    }
+}
