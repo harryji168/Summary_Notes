@@ -6,3 +6,10 @@ yarn global add @vue/cli @vue/cli-service-global
 
 vue --version
 @vue/cli 4.5.15
+
+
+vue create vue-app
+
+
+ $ cd vue-app
+ $ yarn serve
