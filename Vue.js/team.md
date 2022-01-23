@@ -4,6 +4,16 @@ https://www.djamware.com/post/5e07231cecfe522f24e9cef0/vuejs-tutorial-learn-to-b
 
 ### vue.config.js
 
+// vue.config.js file to be place in the root of your repository
+
+module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/my-project/'
+    : '/'
+}
+
+
+
 #!/usr/bin/env sh
 
 # abort on errors
