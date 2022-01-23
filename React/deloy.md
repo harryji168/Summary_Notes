@@ -33,3 +33,5 @@ Running the command above takes care of building your application and pushing it
 
 🚧 If you did not name your remote origin, you will get an error during this phase stating that: Failed to get remote.origin.url (task must either be run in a git repository with a configured origin remote or must be configured with the "repo" option).
 You will know that the process was successful if at the end of it you see the word Published. We can now head to our GitHub repository under Settings and scroll down to the GitHub Pages section.
+
+https://www.heroku.com/pricing
