@@ -1,4 +1,4 @@
-npm run deploy
+# npm run deploy
 cd build
 rm -rf .git
 git init
