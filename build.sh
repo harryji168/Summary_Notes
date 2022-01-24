@@ -1,3 +1,4 @@
+cd build
 rm -rf .git
 git init
 git config  user.email "jiharry@hotmail.com"
@@ -11,3 +12,4 @@ git checkout -b gh-pages
 git branch -M gh-pages
 git remote add origin $1
 git push -u origin gh-pages --force
+cd -
