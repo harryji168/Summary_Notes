@@ -1,0 +1,1 @@
+https://hackprogramming.com/2-ways-to-permanently-set-path-variable-in-ubuntu/
