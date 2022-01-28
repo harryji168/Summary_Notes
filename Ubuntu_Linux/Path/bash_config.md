@@ -1,5 +1,6 @@
 https://opensource.com/article/21/6/bash-config
 
+# ~/.bashrc: User-specific aliases and functions
 
 Starting Bash
 Every Linux host that uses Bash—which is pretty much all of them since Bash is the default shell for all distributions—includes some excellent, built-in examples of sourcing.
