@@ -10,3 +10,12 @@ Reboot your computer or logout and login back (PAM script handle the constructio
 If You want to have the effect take place right away, execute:
 
 source /etc/environment && export PATH
+
+
+## do
+
+code /etc/environment
+
+/usr/local/bin/heroku
+
+source /etc/environment && export PATH
