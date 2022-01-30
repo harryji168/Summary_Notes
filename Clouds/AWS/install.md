@@ -13,3 +13,7 @@ installing kubectl.
 installing helm.
 the eksctl command line utility.
 Setup your environment variables with an AWS access key and secret.
+
+
+sudo apt  install awscli
+aws --version
