@@ -19,3 +19,8 @@ sudo apt  install awscli
 aws --version
 
 aws configure
+
+
+# urllib3 (1.26.1) or chardet (3.0.4) doesn't match a supported version #3270
+https://github.com/DefectDojo/django-DefectDojo/issues/3270
+pip install -U urllib3 requests
