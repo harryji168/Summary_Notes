@@ -25,5 +25,9 @@ Next, we will need to install Composer to install all necessary Magento componen
 curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
 cd /var/www/magento2
 composer install
-bin/magento setup:install --base-url=http://yourdomain.com/ --db-host=localhost --db-name=magentodb --db-user=magento --db-password=strongPassword --admin-firstname=FirstName --admin-lastname=LastName --admin-email=your@emailaddress.com --admin-user=magentoadmin --admin-password=strong-password --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1
+bin/magento setup:install --base-url=http://localhost/ --db-host=localhost --db-name=magentodb --db-user=magento --db-password=strongPassword --admin-firstname=FirstName --admin-lastname=LastName --admin-email=your@emailaddress.com --admin-user=magentoadmin --admin-password=strong-password --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1
 Do not forget to replace the domain name, database password, admin username, password, and admin email address accordingly.
+
+
+
+CREATE OR REPLACE USER magento@localhost IDENTIFIED BY 'strongPassword';
