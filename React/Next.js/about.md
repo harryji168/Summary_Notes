@@ -15,5 +15,5 @@ This production-ready framework allows you to create both static and dynamic JAM
 Server-side rendering.
 
 
-start
+startLS
 npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
