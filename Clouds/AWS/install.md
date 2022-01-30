@@ -17,3 +17,5 @@ Setup your environment variables with an AWS access key and secret.
 
 sudo apt  install awscli
 aws --version
+
+aws configure
