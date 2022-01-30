@@ -13,3 +13,7 @@ Use cases:
 
 This production-ready framework allows you to create both static and dynamic JAMstack sites.
 Server-side rendering.
+
+
+start
+npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
