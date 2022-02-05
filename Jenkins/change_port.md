@@ -10,3 +10,6 @@ Then under JENKINS_ARGS section, you can change the port like this HTTP_PORT=999
 Then you should restart Jenkins with sudo service jenkins restart.
 
 Then to check the status use this command sudo systemctl status jenkins
+
+
+Jenkins http://localhost:9999/
