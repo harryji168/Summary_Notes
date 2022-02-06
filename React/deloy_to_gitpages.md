@@ -22,7 +22,7 @@ Next, we need to modify our package.json file by adding the homepage field. This
 
 {
   "name": "starter-project",
-  "homepage": "https://tomerpacific.github.io/starter-project/", <----
+  "homepage": "https://harryji168.github.io/harryji.com/", <----
   "version": "0.1.0",
   /....
 }
