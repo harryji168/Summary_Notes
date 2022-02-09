@@ -1,3 +1,29 @@
+
+萨姐的南腔北调Lisa's Kitchen
+ 
+https://www.youtube.com/watch?v=33kjcBq1to0
+
+INGREDIENTS
+-----------------------------------------------------------------------------------------
+Bakers flour  300g
+Milk powder 20g
+Caster sugar 35g
+Instant yeast  5g
+Salt  3g
+Egg 50g
+Condensed milk 20gINGREDIENTS
+Water  115g
+Unsalted butter (soften) 25g
+
+Unsalted butter for lamination (soften) 115g
+
+** Preheat oven to 165C/330F
+** Bake at  165C/330F for 23mins
+** Turn to 190C/375F for 3 mins
+
+
+
+https://www.youtube.com/watch?v=Exw7vHVWLbo
 丹麦面包食谱：
 高筋面粉或者没有漂白过的中筋面粉：470克
 水：240克
@@ -26,4 +52,3 @@ Preheated oven 375°F / 190°C, 25 minutes for small loaf, 35 minutes for big lo
 丹麦吐司, 丹麦吐司做法, 丹麦吐司食谱, danish loaf, croissant loaf, croissant bread, croissant loaf bread,
 
 
-https://www.youtube.com/watch?v=Exw7vHVWLbo
