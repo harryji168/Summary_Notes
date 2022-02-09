@@ -24,3 +24,6 @@ Preheated oven 375°F / 190°C, 25 minutes for small loaf, 35 minutes for big lo
 背景音乐：This is not Effortless by True Cuckoo
 
 丹麦吐司, 丹麦吐司做法, 丹麦吐司食谱, danish loaf, croissant loaf, croissant bread, croissant loaf bread,
+
+
+https://www.youtube.com/watch?v=Exw7vHVWLbo
