@@ -15,3 +15,9 @@ Alternatively, if you don't want to use the compiler globally, you may be after
 
 npm i less --save-dev
 This will install the latest official version of lessc in your project folder, also adding it to the devDependencies in your project's package.json.
+
+
+
+Version
+lessc -v
+lessc --version
