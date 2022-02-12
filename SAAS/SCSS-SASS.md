@@ -42,4 +42,28 @@ body {
 
 postcss
 
+The best way to use PostCSS with CSS-in-JS is astroturf. Add its loader to your webpack.config.js:
+
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'postcss-loader'],
+      },
+      {
+        test: /\.jsx?$/,
+        use: ['babel-loader', 'astroturf/loader'],
+      }
+    ]
+  }
+}
+Then create postcss.config.js:
+
+module.exports = {
+  plugins: [
+    require('autoprefixer'),
+    require('postcss-nested')
+  ]
+}
 
