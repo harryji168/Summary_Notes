@@ -4,3 +4,7 @@ Software as a service (or SaaS) is a way of delivering applications over the Int
 https://github.com/dunky11/react-saas-template
 
 https://sass-lang.com/
+
+If you use Node.js, you can also install Sass using npm by running
+
+npm install -g sass
