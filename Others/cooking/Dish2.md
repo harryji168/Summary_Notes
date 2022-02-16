@@ -1,4 +1,4 @@
-# 七彩南瓜盅(素菜） Colorful pumpkin cup (vegetable)
+# 七彩南瓜盅(素菜） Colorful pumpkin cup (Vegetarian)
 
 ###  扁豆, 泡， 煮 15mins  Lentils, soak and cook for 15mins
 
