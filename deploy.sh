@@ -21,7 +21,7 @@ git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:harryji168/vuejs.git main:gh-pages
-git checkout -b gh-pages
+
 git remote add origin $1
 git push -u origin gh-pages --force
 cd -
