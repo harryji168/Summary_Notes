@@ -7,6 +7,9 @@ https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubun
 
  php /usr/local/bin/composer
 
- php artisan serve  Laravel
+ php artisan serve  //Laravel
 
- php spartk serve  codeingiter
+ php spark serve  //codeingiter
+
+ php spark db:seed ClassSeeder
+ php spark db:seed StudentsSeeder
