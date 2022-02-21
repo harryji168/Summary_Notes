@@ -7,4 +7,6 @@ https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubun
 
  php /usr/local/bin/composer
 
- php artisan serve
+ php artisan serve  Laravel
+
+ php spartk serve  codeingiter
