@@ -1,0 +1,1 @@
+https://dev.to/jonathanlamim/10-differences-between-codeigniter-3-and-4-5526
