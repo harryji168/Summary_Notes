@@ -11,3 +11,11 @@ sudo systemctl restart apache2
 
 20220226104701_pet_types.php
 20121031104401
+
+
+CREATE TABLE `pet_types` (
+        `id` INT(5) UNSIGNED NOT NULL AUTO_INCREMENT,
+        `pet_type_name` VARCHAR(10) NOT NULL,
+        `description` TEXT NULL,
+        CONSTRAINT `pk_pet_types` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci
