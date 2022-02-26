@@ -23,4 +23,5 @@ CREATE TABLE `pet_types` (
         CONSTRAINT `pk_pet_types` PRIMARY KEY(`id`)
 ) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci;
 
-use d TUTORIALS −
+https://www.tutorialspoint.com/mysql/mysql-select-database.htm
+use db_ci_ng;
