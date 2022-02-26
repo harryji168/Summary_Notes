@@ -21,4 +21,6 @@ CREATE TABLE `pet_types` (
         `pet_type_name` VARCHAR(10) NOT NULL,
         `description` TEXT NULL,
         CONSTRAINT `pk_pet_types` PRIMARY KEY(`id`)
-) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+
+use d TUTORIALS −
