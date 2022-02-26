@@ -12,6 +12,9 @@ sudo systemctl restart apache2
 20220226104701_pet_types.php
 20121031104401
 
+mysql -u harry -p
+CREATE USER 'harry'@'localhost' IDENTIFIED BY 'Password123#@!';
+
 
 CREATE TABLE `pet_types` (
         `id` INT(5) UNSIGNED NOT NULL AUTO_INCREMENT,
