@@ -25,3 +25,5 @@ CREATE TABLE `pet_types` (
 
 https://www.tutorialspoint.com/mysql/mysql-select-database.htm
 use db_ci_ng;
+
+SHOW TABLES;
