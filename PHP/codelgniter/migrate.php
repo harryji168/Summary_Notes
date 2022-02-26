@@ -27,3 +27,4 @@ https://www.tutorialspoint.com/mysql/mysql-select-database.htm
 use db_ci_ng;
 
 SHOW TABLES;
+Drop TABLE `pet_types`;
