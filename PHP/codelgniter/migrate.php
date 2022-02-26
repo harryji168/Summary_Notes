@@ -28,3 +28,5 @@ use db_ci_ng;
 
 SHOW TABLES;
 Drop TABLE `pet_types`;
+
+INSERT INTO pet_type VALUES ("1", "Dog");
