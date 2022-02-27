@@ -5,3 +5,6 @@ sudo chmod -R 755 /var/www/your_domain/application/libraries/REST_Controller.php
 sudo chmod -R 755 /var/www/your_domain/application/config/rest.php
 sudo chmod -R 755 /var/www/your_domain/application/libraries/Format.php
 sudo chmod -R 755 /var/www/your_domain/system/language/english/rest_controller_lang.php
+
+
+https://github.com/ctechhindi/CodeIgniter-API-Controller  works
