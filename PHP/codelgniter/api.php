@@ -13,3 +13,5 @@ https://github.com/ctechhindi/CodeIgniter-API-Controller  works
 https://github.com/suraj-sella/Items-Inventory-Management
 
 https://code.tutsplus.com/tutorials/working-with-restful-services-in-codeigniter--net-8814
+
+$ sudo service apache2 restart
