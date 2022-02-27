@@ -8,3 +8,6 @@ sudo chmod -R 755 /var/www/your_domain/system/language/english/rest_controller_l
 
 
 https://github.com/ctechhindi/CodeIgniter-API-Controller  works
+
+
+https://github.com/suraj-sella/Items-Inventory-Management
