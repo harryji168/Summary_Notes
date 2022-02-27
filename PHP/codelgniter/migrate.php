@@ -29,7 +29,7 @@ use db_ci_ng;
 CREATE DATABASE db_ci_ng DEFAULT CHARACTER SET = 'utf8mb4';
 CREATE DATABASE API_Controller DEFAULT CHARACTER SET = 'utf8mb4';
 
-CREATE DATABASE Items-Inventory DEFAULT CHARACTER SET = 'utf8mb4';
+CREATE DATABASE `Items-Inventory` DEFAULT CHARACTER SET = 'utf8mb4';
 
 SHOW TABLES;
 Drop TABLE `pet_types`;
