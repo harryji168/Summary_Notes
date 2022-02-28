@@ -3,6 +3,7 @@ https://www.techiediaries.com/angular-11-tutorial-example-rest-crud-http-get-htt
 
 https://www.positronx.io/angular-httpclient-http-service/
 
+ng generate component components/owner-list
 
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
