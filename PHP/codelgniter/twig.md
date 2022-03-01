@@ -7,3 +7,4 @@ http://acmeextension.com/integrate-twig-with-codeigniter/
 }
 
 http://acmeextension.com/integrate-twig-with-codeigniter/
+https://github.com/camelG/Codeigniter3-Twig
