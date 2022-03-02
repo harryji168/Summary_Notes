@@ -21,5 +21,4 @@ https://www.stackhawk.com/blog/angular-cors-guide-examples-and-how-to-enable-it/
           
 # services/owner.service.ts
 
-
-
+const baseURL = '/api';
