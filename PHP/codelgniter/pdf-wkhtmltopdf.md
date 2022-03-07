@@ -1,0 +1,1 @@
+https://computingforgeeks.com/install-wkhtmltopdf-on-ubuntu-debian-linux/
