@@ -9,3 +9,4 @@ https://42northdev.flywheelsites.com/?rest_route=/wp/v2/posts/1
 
 https://developer.wordpress.org/rest-api/extending-the-rest-api/routes-and-endpoints/
 
+http://localhost/app/public/?rest_route=/wp/v2/posts/1
