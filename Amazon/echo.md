@@ -1,0 +1,1 @@
+https://www.wikihow.com/Change-Alexa%27s-Name#:~:text=Although%20you%20can't%20change,as%20its%20%22wake%20word.%22
