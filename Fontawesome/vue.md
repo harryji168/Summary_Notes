@@ -15,4 +15,37 @@
  import { FontAwesomeIcon } from './plugins/font-awesome'
 
  # plugins/font-awesome.json
- 
+
+ # Upvote.vue
+
+ <template>   
+  <button  @click="count++"><fa class="arrow-up" icon="arrow-up" /></button> 
+</template>
+
+<script>
+export default {
+  name: 'Upvote',
+  props: {
+  },
+  data() {
+    return {
+      count: 0
+    }
+  }
+}
+</script>
+<style scoped>
+.arrow-up{
+  width: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+button {
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: none;
+    background-color:#F4F6F8;
+    font-size: 3em;
+}
+</style>
