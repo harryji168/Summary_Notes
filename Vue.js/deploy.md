@@ -1,6 +1,6 @@
 Deploying a Build to GitHub Pages
 You might want to deploy your newly completed app to GitHub pages, a static site host. Assuming you've already created a repository and committed to master, using the steps below...
-
+git init
 git remote add origin https://github.com/username/vue-app
 git add .
 git commit -m "initial commit"
