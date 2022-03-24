@@ -13,3 +13,10 @@ https://iserversupport.com/blog/how-to-install-and-manage-nginx-on-cpanel/
 
 
 sudo systemctl restart nginx
+
+
+https://www.nginx.com/resources/wiki/start/topics/examples/server_blocks/
+
+Note: “VirtualHost” is an Apache term. NGINX does not have Virtual hosts, it has “Server Blocks” that use the server_name and listen directives to bind to tcp sockets.
+
+Two Server Blocks, Serving Static Files
