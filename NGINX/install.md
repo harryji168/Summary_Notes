@@ -10,3 +10,6 @@ How To Install Linux, Nginx, MySQL, PHP (LEMP stack) on Ubuntu 20.04
 
 
 https://iserversupport.com/blog/how-to-install-and-manage-nginx-on-cpanel/
+
+
+sudo systemctl restart nginx
