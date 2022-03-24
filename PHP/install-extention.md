@@ -14,3 +14,18 @@ sudo apt-get install php8.0-gd
 
 Step 3: Now, install CURL.
 $ sudo apt install curl
+
+
+# install  php7.0-gd
+
+php 7:
+
+sudo apt-get install php7.0-zip
+php 5:
+
+sudo apt-get install php5-zip
+
+
+
+
+sudo service apache2 restart
