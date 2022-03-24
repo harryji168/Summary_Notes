@@ -3,3 +3,5 @@ lsb_release -a
 sudo -s
 cd /
 apt install git
+
+# sudo apt install git
