@@ -29,3 +29,12 @@ sudo apt-get install php5-zip
 
 
 sudo service apache2 restart
+
+
+###  
+
+Then type the following command to install this module using the apt command or apt-get command:
+$ sudo apt-get install php5-gd # older ubuntu
+
+For PHP 7.x/8.x:
+$ sudo apt-get install php-gd
