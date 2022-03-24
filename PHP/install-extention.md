@@ -38,3 +38,6 @@ $ sudo apt-get install php5-gd # older ubuntu
 
 For PHP 7.x/8.x:
 $ sudo apt-get install php-gd
+/etc/init.d/apache2 restart
+
+php -i | grep -i --color gd
