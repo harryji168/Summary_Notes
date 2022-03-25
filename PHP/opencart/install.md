@@ -103,3 +103,6 @@ will become available, one compiled and one non-compiled (composer.json only - n
 We STRONGLY advise leaving the vendor folder outside of the webroot - so files cannot be accessed directly.
 
 Composer installing is extremely simple - https://getcomposer.org
+
+
+/etc/php/8.1/apache2/php.ini
