@@ -103,7 +103,7 @@ will become available, one compiled and one non-compiled (composer.json only - n
 We STRONGLY advise leaving the vendor folder outside of the webroot - so files cannot be accessed directly.
 
 Composer installing is extremely simple - https://getcomposer.org
-
+<!-- 
 
 /etc/php/8.1/apache2/php.ini
 # GD
@@ -118,7 +118,7 @@ sudo apt-get install php8.1-mysql
 
 https://techies-world.com/how-to-install-pdo-module-for-php-in-ubuntu/
 
-sudo apt phpenmod pdo_mysql
+sudo apt phpenmod pdo_mysql -->
 
 #service apache2 restart
 
@@ -133,3 +133,29 @@ https://www.codegrepper.com/code-examples/php/install+php+pdo+in+ubuntu+20.04
 sudo apt update
 sudo apt install php7.4
 sudo apt install php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl php7.4-gd php7.4-imagick php7.4-cli php7.4-dev php7.4-imap php7.4-mbstring php7.4-opcache php7.4-soap php7.4-zip php7.4-intl -y
+
+
+### Example
+Move
+
+/var/www/your_domain/opencart/system/storage/
+
+to
+
+/var/www/storage/
+
+Edit config.php change
+
+define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
+
+to
+
+define('DIR_STORAGE', '/var/www/storage/');
+
+Edit admin/config.php and change
+
+define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
+
+to
+
+define('DIR_STORAGE', '/var/www/storage/');
