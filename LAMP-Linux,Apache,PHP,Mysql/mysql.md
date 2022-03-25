@@ -1,6 +1,7 @@
 # install with password
 
 sudo apt install mysql-server
+sudo mysql_secure_installation
 sudo mysql -u root
 
 # stop server
