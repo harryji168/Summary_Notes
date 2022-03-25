@@ -110,3 +110,5 @@ Composer installing is extremely simple - https://getcomposer.org
 sudo apt-get install php8.1-gd
 # curl
 sudo apt-get install php-curl
+# Zip 
+sudo apt-get install php8.1-zip
