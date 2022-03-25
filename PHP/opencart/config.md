@@ -11,3 +11,6 @@ define('DIR_STORAGE', '/var/www/your_domain/opencart/system/storage/');
 /var/www/your_domain/lilychan_3/system/storage/logs/
 
 sudo chmod -R 777 /var/www/your_domain/lilychan_3/system/storage/logs/
+
+
+## change theme 
