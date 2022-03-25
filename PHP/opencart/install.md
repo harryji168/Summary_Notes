@@ -112,3 +112,10 @@ sudo apt-get install php8.1-gd
 sudo apt-get install php-curl
 # Zip 
 sudo apt-get install php8.1-zip
+
+# pdo_mysql
+sudo apt-get install php8.1-mysql
+
+https://techies-world.com/how-to-install-pdo-module-for-php-in-ubuntu/
+
+#phpenmod pdo_mysql
