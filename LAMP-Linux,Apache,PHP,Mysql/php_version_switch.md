@@ -27,3 +27,7 @@ $ sudo a2enmod php5.6
 1.1.3 Set PHP 5.6 as default version using command:
 
 $ sudo update-alternatives --set php /usr/bin/php5.6
+$ sudo update-alternatives --config php
+$ sudo update-alternatives --set phar /usr/bin/phar5.6
+$ sudo systemctl restart apache2
+$ php -v
