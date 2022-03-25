@@ -118,4 +118,14 @@ sudo apt-get install php8.1-mysql
 
 https://techies-world.com/how-to-install-pdo-module-for-php-in-ubuntu/
 
-#phpenmod pdo_mysql
+sudo apt phpenmod pdo_mysql
+
+#service apache2 restart
+
+after install install
+http://127.0.0.1/opencart/admin/index.php?
+admin
+password
+
+
+https://www.codegrepper.com/code-examples/php/install+php+pdo+in+ubuntu+20.04
