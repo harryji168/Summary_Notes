@@ -18,3 +18,10 @@ sudo apt install apache2 \
 
 
 http://localhost:8080/wordpress/wp-admin/setup-config.php
+
+wp-admin
+admin
+password
+
+http://localhost:8080/wordpress/
+http://localhost:8080/wordpress/wp-admin/
