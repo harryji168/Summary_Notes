@@ -35,3 +35,5 @@ location / {
 autoindex on;
 autoindex_exact_size on;
 }
+
+sudo nginx -t
