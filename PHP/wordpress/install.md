@@ -40,4 +40,4 @@ sudo nginx -t
 
 sudo systemctl restart nginx
 
-test s
+test speed
