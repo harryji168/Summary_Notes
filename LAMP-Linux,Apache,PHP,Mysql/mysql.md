@@ -35,6 +35,7 @@ CREATE USER 'harry'@'localhost' IDENTIFIED BY 'Password123#@!';
 
 GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'harry'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
+exit
 
 mysql -u harry -p
 
