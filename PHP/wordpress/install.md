@@ -37,3 +37,7 @@ autoindex_exact_size on;
 }
 
 sudo nginx -t
+
+sudo systemctl restart nginx
+
+test s
