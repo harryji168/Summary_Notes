@@ -30,6 +30,7 @@ sudo apt remove dbconfig-mysql
 
 
  sudo mysql 
+ CREATE USER 'harry'@'localhost' IDENTIFIED BY 'password';
 CREATE USER 'harry'@'localhost' IDENTIFIED BY 'Password123#@!';
 
 GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'harry'@'localhost' WITH GRANT OPTION;
