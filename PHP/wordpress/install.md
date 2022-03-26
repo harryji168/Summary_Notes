@@ -25,3 +25,7 @@ password
 
 http://localhost:8080/wordpress/
 http://localhost:8080/wordpress/wp-admin/
+
+
+https://linuxhint.com/fix-nginx-403-forbidden/#:~:text=The%20very%20first%20and%20common,will%20return%20403%20forbidden%20error.
+
