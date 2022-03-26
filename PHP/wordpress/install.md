@@ -15,3 +15,6 @@ sudo apt install apache2 \
                  php-mysql \
                  php-xml \
                  php-zip
+
+
+http://localhost:8080/wordpress/wp-admin/setup-config.php
