@@ -9,3 +9,6 @@ https://nextgentips.com/2021/12/03/how-to-install-php-8-1-on-ubuntu-21-04/
 
 # How to Install PHP and PHP-FPM with NGINX
 https://www.linode.com/docs/guides/install-php-8-for-apache-and-nginx-on-ubuntu/
+ sudo apt install php-fpm
+
+  sudo apt install php-common php-mysql php-cgi php-mbstring php-curl php-gd php-xml   php-pear
