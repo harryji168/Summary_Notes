@@ -14,3 +14,11 @@ sudo apt install php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl
 
 
 Shop password: password
+
+
+413 Request Entity Too Large
+nginx/1.18.0 (Ubuntu)
+
+https://medium.com/@svsh227/error-413-request-entity-too-large-in-nginx-with-client-max-body-size-changes-in-nginx-6aacd525fe11#:~:text=Save-,Error%3A%20413%20%E2%80%9CRequest%20Entity%20Too%20Large%E2%80%9D%20in%20Nginx%20with,to%20modify%20your%20nginx%20configuration.
+
+client_max_body_size 100M;
