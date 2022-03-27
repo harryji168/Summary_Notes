@@ -24,3 +24,5 @@ https://medium.com/@svsh227/error-413-request-entity-too-large-in-nginx-with-cli
 client_max_body_size 100M;
 
 https://ubiq.co/tech-blog/fix-504-gateway-timeout-error-nginx/
+
+max_execution_time = 300
