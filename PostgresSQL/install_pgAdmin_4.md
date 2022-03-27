@@ -13,6 +13,10 @@ $ sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(ls
 
 $sudo apt install pgadmin4
 
+
+
+
+
 ## older
 # Create the repository configuration file:
 sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
