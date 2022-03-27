@@ -17,3 +17,7 @@ get
 psql (PostgreSQL) 12.8 (Ubuntu 12.8-0ubuntu0.20.04.1)
 
 https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+
+Step 2 — Using PostgreSQL Roles and Databases
+
+sudo -i -u postgres
