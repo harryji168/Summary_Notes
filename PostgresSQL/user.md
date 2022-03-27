@@ -1,6 +1,11 @@
 sudo -u postgres psql
 
-# \du
+# \du  
+#list user
 
 
-# \l
+# \l 
+list databases
+
+# \c Cluckr
+change databases
