@@ -4,3 +4,5 @@ apt-get install php7.4 -y
 
 
 sudo nginx -t
+
+You must install PHP zip extension first
