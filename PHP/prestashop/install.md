@@ -22,3 +22,5 @@ nginx/1.18.0 (Ubuntu)
 https://medium.com/@svsh227/error-413-request-entity-too-large-in-nginx-with-client-max-body-size-changes-in-nginx-6aacd525fe11#:~:text=Save-,Error%3A%20413%20%E2%80%9CRequest%20Entity%20Too%20Large%E2%80%9D%20in%20Nginx%20with,to%20modify%20your%20nginx%20configuration.
 
 client_max_body_size 100M;
+
+https://ubiq.co/tech-blog/fix-504-gateway-timeout-error-nginx/
