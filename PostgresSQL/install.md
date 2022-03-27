@@ -14,6 +14,19 @@ psql --version
 ```
 get 
 
+##### 
+https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e
+
+sudo -u postgres psql
+postgres=# create database mydb;
+postgres=# create user myuser with encrypted password 'mypass';
+postgres=# grant all privileges on database mydb to myuser;
+
+
+
+
+##
+
 psql (PostgreSQL) 12.8 (Ubuntu 12.8-0ubuntu0.20.04.1)
 
 https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
