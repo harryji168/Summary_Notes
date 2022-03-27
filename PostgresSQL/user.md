@@ -9,3 +9,7 @@ list databases
 
 # \c Cluckr
 change databases
+
+# \dt 
+list tables
+
