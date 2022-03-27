@@ -16,3 +16,13 @@ sudo -u postgres psql
 postgres=# create database mydb;
 postgres=# create user myuser with encrypted password 'mypass';
 postgres=# grant all privileges on database mydb to myuser;
+
+
+### createdb-database-creation-failed-error-permission-denied-to-create-database
+https://stackoverflow.com/questions/43734650/createdb-database-creation-failed-error-permission-denied-to-create-database
+
+sudo -u postgres psql
+$ psql
+
+postgres=# alter user athleticu createdb;
+ALTER ROLE
