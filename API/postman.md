@@ -1,3 +1,12 @@
+https://linuxize.com/post/how-to-install-postman-on-ubuntu-20-04/
+
+
+sudo snap install postman
+
+
+
+
+## wrong 
 https://nextgentips.com/2021/12/09/how-to-install-postman-client-on-ubuntu-21-10/
 
 1. Run system updates
