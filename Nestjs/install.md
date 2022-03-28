@@ -1,6 +1,7 @@
 https://docs.nestjs.com/cli/overview
 
- npm install -g @nestjs/cli
+$ npm i -g @nestjs/cli
+$ nest new project-name
 
 
  nest --help
