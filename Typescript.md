@@ -5,3 +5,5 @@ I had met same issue. First I remove ts-node and typescript from package.json. t
 npm install ts-node --save-dev
 npm install typescript -g 
 npm install typescript --save-dev
+
+https://www.typescriptlang.org/download
