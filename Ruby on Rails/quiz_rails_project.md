@@ -64,7 +64,9 @@ add
 rename to application.scss
 
 
+
 ## test browser  shouw rails logo
+rails s
 ```
 http://localhost:3000/
 ``` 
