@@ -14,3 +14,5 @@ npm run dev
 You must use Vue 3 and Vite
 
 Install the Vuex-Store: https://vuex.vuejs.org/installation.html 
+
+npm install vuex@next --save
