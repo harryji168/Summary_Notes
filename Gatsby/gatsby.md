@@ -16,3 +16,6 @@ gatsby develop
 gatsby new gatsby-site
 
 https://www.hostnextra.com/kb/how-to-install-gatsby-on-ubuntu-20-04/
+
+
+npm rebuild node-sass
