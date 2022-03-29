@@ -57,3 +57,7 @@ export BUILD_DIR=$HOME/build && mkdir -p $BUILD_DIR && \
 export INSTALL_DIR=$HOME/install && mkdir -p $INSTALL_DIR
 
 https://github.com/sdkman/sdkman-cli/issues/641
+
+
+
+https://www.codegrepper.com/code-examples/shell/how+to+install+Spring+boot+in+ubuntu+using+terminal
