@@ -18,8 +18,10 @@ get
 ###
 https://tableplus.com/blog/2018/10/how-to-create-superuser-in-postgresql.html
 
-CREATE ROLE rolename LOGIN SUPERUSER;
+CREATE ROLE harryji LOGIN SUPERUSER;
 
+
+sudo service postgresql restart
 
 ##### 
 https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e
