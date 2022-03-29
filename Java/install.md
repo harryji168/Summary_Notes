@@ -1,3 +1,9 @@
+# https://technowikis.com/44397/how-to-install-java-on-ubuntu-21-10
+
+
+
+
+
 # How To Install Java with Apt on Ubuntu 20.04
 
 ```
