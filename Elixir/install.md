@@ -1,6 +1,11 @@
 
+## https://qiita.com/akkiii/items/6d0918e32e6ddf947b45
 
 
+
+
+
+### 
 Ubuntu or Debian
 Add Erlang Solutions repository: wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb
 Run: sudo apt-get update
