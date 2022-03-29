@@ -2,9 +2,13 @@
 
 
 
+sudo update-alternatives --install /usr/bin/javac javas /usr/lib/jvm/jdk-18/bin/javac 1
+java -version
+javac -version 
 
 
-# How To Install Java with Apt on Ubuntu 20.04
+
+#### How To Install Java with Apt on Ubuntu 20.04
 
 ```
 sudo apt update
