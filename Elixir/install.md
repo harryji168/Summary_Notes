@@ -1,4 +1,9 @@
-@@ https://elixir-lang.org/install.html#gnulinux
+https://computingforgeeks.com/how-to-install-latest-erlang-on-ubuntu-linux/
+
+echo "deb https://packages.erlang-solutions.com/ubuntu focal contrib" | sudo tee /etc/apt/sources.list.d/erlang.list
+
+
+https://elixir-lang.org/install.html#gnulinux
 
 
 ### 
