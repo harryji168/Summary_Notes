@@ -1,3 +1,7 @@
+https://tecadmin.net/how-to-install-net-core-on-ubuntu-20-04/
+
+
+
 Install the SDK
 The .NET SDK allows you to develop apps with .NET. If you install the .NET SDK, you don't need to install the corresponding runtime. To install the .NET SDK, run the following commands:
 
