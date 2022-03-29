@@ -40,3 +40,19 @@ xmlstarlet texlive-fonts-recommended texlive-latex-extra perl-base xml-twig-tool
 
 
 server@ubuntu:~$ sudo npm install -g yarn
+
+sudo apt-get install npm
+
+sudo npm install -g yarn
+
+
+
+sudo useradd -r -M -U -G sudo -s /usr/sbin/nologin gvm && \
+sudo usermod -aG gvm $USER && su $USER
+
+
+export PATH=$PATH:/usr/local/sbin && export INSTALL_PREFIX=/usr/local && \
+export SOURCE_DIR=$HOME/source && mkdir -p $SOURCE_DIR && \
+export BUILD_DIR=$HOME/build && mkdir -p $BUILD_DIR && \
+export INSTALL_DIR=$HOME/install && mkdir -p $INSTALL_DIR
+
