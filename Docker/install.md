@@ -56,7 +56,7 @@ Finally, install Docker:
  
 Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running:
 
-sudo systemctl status docker
+# sudo systemctl status docker
  
 The output should be similar to the following, showing that the service is active and running:
 
