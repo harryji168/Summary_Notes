@@ -18,11 +18,9 @@ mvn site
 https://javabeat.net/gvm/
 
 [java]
-sudo apt-get install curl
-curl -s get.gvmtool.net | bash
-[/java]
+sudo apt-get install curl 
 
-https://community.greenbone.net/t/install-gvm-21-4-2-ubuntu-20-04/10057
+https://www.libellux.com/openvas/#prerequisites
 
 
 server@ubuntu:~$ sudo apt-get update && \
@@ -38,3 +36,7 @@ heimdal-dev xmltoman nmap npm nodejs virtualenv gnupg rsync yarnpkg \
 python3-paramiko python3-lxml python3-defusedxml python3-pip python3-psutil \
 python3-setuptools python3-packaging python3-wrapt python3-cffi python3-redis \
 xmlstarlet texlive-fonts-recommended texlive-latex-extra perl-base xml-twig-tools
+
+
+
+server@ubuntu:~$ sudo npm install -g yarn
