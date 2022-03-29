@@ -1,22 +1,4 @@
-
-## https://qiita.com/akkiii/items/6d0918e32e6ddf947b45
-
-
-Various installations
-Required for Erlang
-https://computingforgeeks.com/how-to-install-latest-erlang-on-ubuntu-linux/
-https://computingforgeeks.com
-
-sudo apt-get update
-sudo apt-get install automake autoconf libreadline-dev libncurses-dev \
-libssl-dev libyaml-dev libxslt1-dev libffi-dev libtool unixodbc-dev \
-libwxgtk3.0-gtk3-dev libgl1-mesa-dev  libglu1-mesa-dev libssh-dev xsltproc fop \
-libxml2-utils
-
-sudo apt-get -y install build-essential libncurses5-dev openssl
-sudo apt-get install curl git-core
-
-sudo apt-get install openjdk-15-jdk default-jdk
+@@ https://elixir-lang.org/install.html#gnulinux
 
 
 ### 
