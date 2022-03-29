@@ -21,3 +21,20 @@ https://javabeat.net/gvm/
 sudo apt-get install curl
 curl -s get.gvmtool.net | bash
 [/java]
+
+https://community.greenbone.net/t/install-gvm-21-4-2-ubuntu-20-04/10057
+
+
+server@ubuntu:~$ sudo apt-get update && \
+sudo apt-get -y upgrade && \
+sudo apt-get install -y build-essential && \
+sudo apt-get install -y cmake pkg-config gcc-mingw-w64 \
+gnutls-bin libgnutls28-dev libxml2-dev libssh-dev libssl-dev libunistring-dev \
+libldap2-dev libgcrypt-dev libpcap-dev libgpgme-dev libradcli-dev libglib2.0-dev \
+libksba-dev libical-dev libpq-dev libopenvas-dev libpopt-dev libnet1-dev \
+libmicrohttpd-dev redis-server libhiredis-dev doxygen xsltproc uuid-dev \
+graphviz bison postgresql postgresql-contrib postgresql-server-dev-all \
+heimdal-dev xmltoman nmap npm nodejs virtualenv gnupg rsync yarnpkg \
+python3-paramiko python3-lxml python3-defusedxml python3-pip python3-psutil \
+python3-setuptools python3-packaging python3-wrapt python3-cffi python3-redis \
+xmlstarlet texlive-fonts-recommended texlive-latex-extra perl-base xml-twig-tools
