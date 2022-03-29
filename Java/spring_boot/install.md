@@ -61,3 +61,7 @@ https://github.com/sdkman/sdkman-cli/issues/641
 
 
 https://www.codegrepper.com/code-examples/shell/how+to+install+Spring+boot+in+ubuntu+using+terminal
+
+
+
+https://docs.spring.io/spring-boot/docs/1.0.1.RELEASE/reference/html/getting-started-installing-spring-boot.html
