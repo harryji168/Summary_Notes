@@ -3,5 +3,11 @@ https://docs.spring.io/spring-boot/docs/1.2.0.M2/reference/html/getting-started-
 sudo apt-get install maven
 
 
+ 
 
-https://gvmtool.net/
+https://javabeat.net/gvm/
+
+[java]
+sudo apt-get install curl
+curl -s get.gvmtool.net | bash
+[/java]
