@@ -56,3 +56,4 @@ export SOURCE_DIR=$HOME/source && mkdir -p $SOURCE_DIR && \
 export BUILD_DIR=$HOME/build && mkdir -p $BUILD_DIR && \
 export INSTALL_DIR=$HOME/install && mkdir -p $INSTALL_DIR
 
+https://github.com/sdkman/sdkman-cli/issues/641
