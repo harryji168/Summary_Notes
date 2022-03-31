@@ -1,28 +1,26 @@
-http://www.facweb.iitkgp.ac.in/dashboard/docs/auto-start-xampp.html
+https://shareablecode.com/snippets/how-to-auto-start-xampp-at-startup-in-ubuntu-x42e-2uBd
 
-Debian-like Distributions (Debian, Ubuntu, …​)
-Copy the /opt/lampp/lampp script to the /etc/init.d directory.
-```
-sudo cp /opt/lampp/lampp /etc/init.d
-```
-Add or modify the following lines at the beginning of the /etc/init.d/lampp script.
+Run the following command.
 
-### BEGIN INIT INFO
-# Provides:          xampp
-# Required-Start:    $remote_fs $syslog
-# Required-Stop:     $remote_fs $syslog
-# Default-Start:     2 3 4 5
-# Default-Stop:      0 1 6
-# Short-Description: Start XAMPP at boot time
-# Description:       Enable services provided by XAMPP.
-### END INIT INFO
-Add the script to the default runlevels and enable it.
+sudo gedit /etc/systemd/system/xampp.service
+This command, if already not created, creates a new file named  xampp.service  in the directory  /etc/systemd/system/  and opens it for editing.
 
-sudo update-rc.d -f lampp defaults
-sudo update-rc.d -f lampp enable
-Reboot your system and XAMPP should start automatically.
+In the opened file, add the following lines and save the file
 
-To revert the changes, use the commands below:
 
-cd /etc/init.d
-sudo update-rc.d -f lampp remove
+ 
+[Unit]
+Description=XAMPP
+
+[Service]
+ExecStart=/opt/lampp/lampp start
+ExecStop=/opt/lampp/lampp stop
+Type=forking
+
+[Install]
+WantedBy=multi-user.target
+
+ 
+Once the script file is created, run the following command to instruct Ubuntu to execute it at the startup.
+
+sudo systemctl enable xampp.service
