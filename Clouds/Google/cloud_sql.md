@@ -49,3 +49,22 @@ try {
 } catch (PDOException $e) {
 	echo $e->getMessage();
 }
+
+index1.php
+
+<?php
+$host = '10.25.144.4';
+$db = 'owner-pet';
+$user = 'owner-pet';
+$password = '0228';
+$dsn = "mysql:host=$host;dbname=$db;charset=UTF8";
+
+try {
+	$pdo = new PDO($dsn, $user, $password);
+
+	if ($pdo) {
+		echo "Connected to the $db database successfully!";
+	}
+} catch (PDOException $e) {
+	echo $e->getMessage();
+}
