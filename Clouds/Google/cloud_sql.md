@@ -31,3 +31,21 @@ sudo su -
 cd /
 ls
 cd /var/www/html
+
+index.php
+
+$host = 'localhost';
+$db = 'mysql';
+$user = 'root';
+$password = 'Pe6mFAvvC36nHs';
+$dsn = "mysql:host=$host;dbname=$db;charset=UTF8";
+
+try {
+	$pdo = new PDO($dsn, $user, $password);
+
+	if ($pdo) {
+		echo "Connected to the $db database successfully!";
+	}
+} catch (PDOException $e) {
+	echo $e->getMessage();
+}
