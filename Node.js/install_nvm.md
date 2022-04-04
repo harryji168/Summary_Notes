@@ -22,3 +22,6 @@ https://stackoverflow.com/questions/47190861/how-can-the-default-node-version-be
 nvm alias default v16.13.1
 
 nvm use default
+
+
+nvm uninstall 17.8.0
