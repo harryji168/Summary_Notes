@@ -4,7 +4,7 @@ You use the Angular CLI to create projects, generate application and library cod
 To install the Angular CLI, open a terminal window and run the following command:
 
 content_copy
-npm install -g @angular/cli
+npm install -g @angular/cli@latest
 
 
 The ng new command prompts you for information about features to include in the initial app. Accept the defaults by pressing the Enter or Return key.
