@@ -33,7 +33,7 @@ ls
 cd /var/www/html
 
 index.php
-
+<?php
 $host = 'localhost';
 $db = 'mysql';
 $user = 'root';
