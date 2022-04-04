@@ -32,6 +32,27 @@ cd /
 ls
 cd /var/www/html
 vim index.php
+
+
+<?php
+$host = '34.67.189.246';
+$db = 'owner-pet';
+$user = 'owner-pet';
+$password = 'Password123!';
+$dsn = "mysql:host=$host;dbname=$db;charset=UTF8";
+
+try {
+	$pdo = new PDO($dsn, $user, $password);
+
+	if ($pdo) {
+		echo "Connected to the $db database successfully!";
+	}
+} catch (PDOException $e) {
+	echo $e->getMessage();
+}
+
+
+
 <?php
 $host = 'localhost';
 $db = 'mysql';
