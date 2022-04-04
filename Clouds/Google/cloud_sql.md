@@ -31,8 +31,7 @@ sudo su -
 cd /
 ls
 cd /var/www/html
-
-index.php
+vim index.php
 <?php
 $host = 'localhost';
 $db = 'mysql';
