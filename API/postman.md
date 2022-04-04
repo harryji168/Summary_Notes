@@ -5,6 +5,7 @@ sudo snap install postman
 
 
 google account
+info@superesolutions.net
 
 
 
