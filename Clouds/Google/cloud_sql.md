@@ -56,7 +56,7 @@ index1.php
 $host = '10.25.144.4';
 $db = 'owner-pet';
 $user = 'owner-pet';
-$password = '0228';
+$password = 'Password123!';
 $dsn = "mysql:host=$host;dbname=$db;charset=UTF8";
 
 try {
