@@ -26,3 +26,8 @@ How to Use Google Cloud SQL
 
 
 terminal
+ls
+sudo su -
+cd /
+ls
+cd /var/www/html
