@@ -21,3 +21,6 @@ See 'docker run --help'
 docker run -d -p 88:80 --name my-apache-php-app -v "$PWD":/var/www/html php:7.4-apache # This line for *nix users
 
 docker stop $(docker ps -a -q)
+
+
+docker-compose up -d
