@@ -34,5 +34,5 @@ Commands:
 Run 'docker container COMMAND --help' for more information on a command.
 
 
-docker: Error response from daemon: Conflict. The container name "/my-apache-php-app" is already in use by container "7cbafa586e34026db47532683d302d631d318be114dd8a0f8813640d54e1ee7f". You have to remove (or rename) that container to be able to reuse that name.
-See 'docker run --help'.
+.
+
