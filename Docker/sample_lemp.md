@@ -13,6 +13,9 @@ docker build -t my-php-app .
 
 sudo docker build -t docker-ci-angular-project .
 
+Successfully built bec168d56947
+Successfully tagged docker-ci-angular-project:latest
+
 sudo docker run -it --rm -p 88:80  --name running-project-app docker-ci-angular-project
 docker stop $(docker ps -a -q)
 
