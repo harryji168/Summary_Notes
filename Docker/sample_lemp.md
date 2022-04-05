@@ -12,3 +12,8 @@ docker build -t my-php-app .
 
 
 sudo docker build -t docker-ci-angular-project .
+
+sudo docker run -it --rm -p 88:80  --name running-project-app docker-ci-angular-project
+
+
+docker run -d -p 88:80 --name my-apache-php-app -v "$PWD":/var/www/html php:7.4-apache 
