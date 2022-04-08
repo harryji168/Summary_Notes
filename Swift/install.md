@@ -2,9 +2,9 @@ https://www.swift.org/download/
 
 # sudo apt-get install curl clang libicu-dev git libatomic1 libicu60 libxml2 libcurl4 zlib1g-dev libbsd0 tzdata libssl-dev libsqlite3-dev libblocksruntime-dev libncurses5-dev libdispatch-dev -y
 # mkdir ~/swift
-# tar -xvzf swift-5.5.2-RELEASE-ubuntu20.04 -C ~/swift
+# tar -xvzf swift-5.6-RELEASE-ubuntu20.04 -C ~/swift
 
-# export PATH="~/swift/swift-5.5.2-RELEASE-ubuntu20.04/usr/bin:$PATH"
+# export PATH="~/swift/swift-5.6-RELEASE-ubuntu20.04/usr/bin:$PATH"
 
 # swift --version
 
