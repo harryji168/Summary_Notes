@@ -8,7 +8,10 @@ The .NET SDK allows you to develop apps with .NET. If you install the .NET SDK, 
 Bash
 
 Copy
-sudo apt-get update; \
+<!-- sudo apt-get update; \
   sudo apt-get install -y apt-transport-https && \
   sudo apt-get update && \
-  sudo apt-get install -y dotnet-sdk-6.0
+  sudo apt-get install -y dotnet-sdk-6.0 -->
+
+
+  sudo snap install dotnet-sdk --classic
