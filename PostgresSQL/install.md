@@ -18,7 +18,7 @@ get
 ###
 https://tableplus.com/blog/2018/10/how-to-create-superuser-in-postgresql.html
 
-CREATE ROLE harryji LOGIN SUPERUSER;
+CREATE ROLE harry LOGIN SUPERUSER;
 
 
 sudo service postgresql restart
