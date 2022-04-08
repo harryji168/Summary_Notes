@@ -52,7 +52,7 @@ Notice that docker-ce is not installed, but the candidate for installation is fr
 
 Finally, install Docker:
 
-# sudo apt install docker-ce
+# y
  
 Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running:
 
