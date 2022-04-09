@@ -8,3 +8,7 @@ $ docker-compose exec drash bash
 
 
 https://github.com/VonderVuflya/realworld-docker
+
+
+https://github.com/tanem/express-bookshelf-realworld-example-app
+docker-compose up --build
