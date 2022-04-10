@@ -12,3 +12,7 @@ docker ps -a
 
 
 docker exec -u 0 -it 03581f7c7e16 /bin/bash
+
+
+
+https://stackoverflow.com/questions/20813486/exploring-docker-containers-file-system
