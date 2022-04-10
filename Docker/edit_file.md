@@ -24,3 +24,5 @@ https://code.visualstudio.com/docs/remote/containers
 Install the Remote Development extension pack.
 
 remote-containers:open folders in container
+
+/var/www/html/
