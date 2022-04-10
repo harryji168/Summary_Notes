@@ -20,3 +20,7 @@ https://stackoverflow.com/questions/20813486/exploring-docker-containers-file-sy
 
 # use vss extension
 https://code.visualstudio.com/docs/remote/containers
+
+Install the Remote Development extension pack.
+
+remote-containers:open folders in container
