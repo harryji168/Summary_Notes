@@ -49,3 +49,12 @@ networks:
 
 
 https://stackoverflow.com/questions/20813486/exploring-docker-containers-file-system
+
+database setting
+
+datbase:prestashop-db
+MYSQL_DATABASE: prestashop
+username: root
+MYSQL_ROOT_PASSWORD: prestashop
+
+/var/local/html/
