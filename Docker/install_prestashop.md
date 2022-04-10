@@ -57,4 +57,4 @@ MYSQL_DATABASE: prestashop
 username: root
 MYSQL_ROOT_PASSWORD: prestashop
 
-/var/local/html/
+/var/www/html/
