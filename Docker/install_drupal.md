@@ -1,3 +1,10 @@
+https://hub.docker.com/r/bitnami/drupal
+
+$ curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-drupal/master/docker-compose.yml > docker-compose.yml
+$ docker-compose up -d
+
+
+
 https://www.digitalocean.com/community/tutorials/how-to-install-drupal-with-docker-compose
 
 
