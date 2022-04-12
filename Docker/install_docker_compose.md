@@ -34,7 +34,19 @@ Test the installation.
 docker-compose version 1.29.2, build 5becea4c
 
 
+https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue
 
-# sudo chmod 666 /var/run/docker.sock
+if you want to run docker as non-root user then you need to add it to the docker group.
 
-https://adamtheautomator.com/docker-permission-denied/#:~:text=If%20running%20elevated%20Docker%20commands,triggers%20the%20permission%20denied%20error.
+Create the docker group if it does not exist
+$ sudo groupadd docker
+Add your user to the docker group.
+$ sudo usermod -aG docker $USER
+Run the following command or Logout and login again and run (that doesn't work you may need to reboot your machine first)
+$ newgrp docker
+
+Check if docker can be run without root
+$ docker run hello-world
+Reboot if still got error
+
+$ reboot
