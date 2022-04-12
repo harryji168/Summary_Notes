@@ -63,3 +63,7 @@ volumes:
   drupal-data:
   db-data:
   certbot-etc:
+
+
+
+  docker-compose up -d --force-recreate --no-deps webserver
