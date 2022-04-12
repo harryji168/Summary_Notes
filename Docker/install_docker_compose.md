@@ -32,3 +32,7 @@ Test the installation.
 # docker-compose --version
 
 docker-compose version 1.29.2, build 5becea4c
+
+
+
+# sudo chmod 666 /var/run/docker.sock
