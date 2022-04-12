@@ -36,3 +36,5 @@ docker-compose version 1.29.2, build 5becea4c
 
 
 # sudo chmod 666 /var/run/docker.sock
+
+https://adamtheautomator.com/docker-permission-denied/#:~:text=If%20running%20elevated%20Docker%20commands,triggers%20the%20permission%20denied%20error.
