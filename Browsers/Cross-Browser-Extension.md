@@ -1,0 +1,1 @@
+https://www.graycelltech.com/an-easy-guide-to-build-a-cross-browser-extension/
