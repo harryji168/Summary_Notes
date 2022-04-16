@@ -12,7 +12,7 @@ blueberry
 blackberry
 
 茄子
-
+spinch 菠菜
 lemon
 
 莲子
