@@ -18,3 +18,9 @@ You can use
 
  3. Restart the docker daemon
 $ sudo service docker restart
+
+
+https://github.com/sindresorhus/guides/blob/main/docker-without-sudo.md
+
+
+# sudo chmod 666 /var/run/docker.sock
