@@ -14,3 +14,7 @@ Either do a newgrp docker or log out/in to activate the changes to groups.
 You can use
 
  docker run hello-world
+
+
+ 3. Restart the docker daemon
+$ sudo service docker restart
