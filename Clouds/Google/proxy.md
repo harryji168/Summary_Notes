@@ -10,4 +10,4 @@ wordpress-347706:us-central1:wp-mysql
 
 
 
-  ./cloud_sql_proxy -instances=wordpress-347706:us-central1:wp-mysql=tcp:3306 -credential_file=../ &
+  ./cloud_sql_proxy -instances=wordpress-347706:us-central1:wp-mysql=tcp:3306 -credential_file=../wordpress-347706-27e873008504.json &
