@@ -39,12 +39,8 @@ Google Enterprise API
 
 9.gcloud builds submit --tag gcr.io/yotube-demo-348104/testapp
 
-gcloud run deploy --image gcr.io/yotube-demo-348104/testapp --platform managed 
---add-cloudsql-instances yotube-demo-348104:us-central1:samplephp --set-env-vars CLOUD_SQL yotube-demo-348104
---update-env-vars=INSTANCE_CONNECTION_NAME=INSTANCE_CONNECTION_NAME_SECRET \
---update-secrets=DB_USER=DB_USER_SECRET:latest \
---update-secrets=DB_PASS=DB_PASS_SECRET:latest \
---update-secrets=DB_NAME=DB_NAME_SECRET:latest
+gcloud run deploy --image gcr.io/yotube-demo-348104/testapp --platform managed --add-cloudsql-instances yotube-demo-348104:us-central1:samplephp --set-env-vars CLOUD_SQL_CONNECTION_NAME=yotube-demo-348104:us-central1:samplephp
+
   
 10. cloud run 
 https://console.cloud.google.com/run?referrer=search&project=yotube-demo-348104
