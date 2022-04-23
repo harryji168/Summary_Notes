@@ -38,3 +38,12 @@ hM2MoEMsph7k2ga9
 Google Enterprise API
 
 9.gcloud builds submit --tag gcr.io/yotube-demo-348104/testapp
+gcloud run services update SERVICE_NAME \
+--add-cloudsql-instances=INSTANCE_CONNECTION_NAME
+--update-env-vars=INSTANCE_CONNECTION_NAME=INSTANCE_CONNECTION_NAME_SECRET \
+--update-secrets=DB_USER=DB_USER_SECRET:latest \
+--update-secrets=DB_PASS=DB_PASS_SECRET:latest \
+--update-secrets=DB_NAME=DB_NAME_SECRET:latest
+  
+10. cloud run 
+https://console.cloud.google.com/run?referrer=search&project=yotube-demo-348104
