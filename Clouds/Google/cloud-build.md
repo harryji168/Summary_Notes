@@ -7,3 +7,6 @@ firebase --help
 firebase login
 
 https://stackoverflow.com/questions/70639863/firebase-cli-firebase-projectscreate-fails-to-create-new-project
+
+ npm install -g serve
+  serve -s build
