@@ -22,3 +22,5 @@ youtube-demo@yotube-demo-348104.iam.gserviceaccount.com	youtube-demo
 Cloud SQL Client
 
 4. create mysql instances
+samplephp
+hM2MoEMsph7k2ga9
