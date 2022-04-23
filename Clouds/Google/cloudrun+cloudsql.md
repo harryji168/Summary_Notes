@@ -10,3 +10,9 @@ https://www.youtube.com/watch?v=jvZXbJv6qJ4y
 https://www.youtube.com/watch?v=jvZXbJv6qJ4
 
 youtube-demo
+
+1.apis
+https://console.cloud.google.com/apis/dashboard?project=yotube-demo-348104
+
+2. enable cloud sql admin api
+https://console.cloud.google.com/apis/library/sqladmin.googleapis.com?project=yotube-demo-348104
