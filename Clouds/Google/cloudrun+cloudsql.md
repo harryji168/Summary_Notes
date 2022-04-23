@@ -29,3 +29,5 @@ hM2MoEMsph7k2ga9
  gcloud sql connect samplephp --user=root --quiet
 
  gcloud sql connect samplephp --user=sample --quiet
+
+ 6. gcloud config set project yotube-demo-348104
