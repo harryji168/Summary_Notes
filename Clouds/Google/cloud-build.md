@@ -8,5 +8,7 @@ firebase login
 
 https://stackoverflow.com/questions/70639863/firebase-cli-firebase-projectscreate-fails-to-create-new-project
 
+tour-of-heroes-20220109
+
  npm install -g serve
   serve -s build
