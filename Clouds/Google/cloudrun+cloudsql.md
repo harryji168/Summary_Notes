@@ -36,3 +36,5 @@ hM2MoEMsph7k2ga9
  8.https://console.cloud.google.com/gcr/images/wordpress-347706?referrer=search&project=wordpress-347706
  enable Google Container Registry API
 Google Enterprise API
+
+9.gcloud builds submit --tag gcr.io/yotube-demo-348104/testapp
