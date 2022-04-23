@@ -31,3 +31,8 @@ hM2MoEMsph7k2ga9
  gcloud sql connect samplephp --user=sample --quiet
 
  6. gcloud config set project yotube-demo-348104
+
+ 7 create filesystem
+ 8.https://console.cloud.google.com/gcr/images/wordpress-347706?referrer=search&project=wordpress-347706
+ enable Google Container Registry API
+Google Enterprise API
