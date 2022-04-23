@@ -29,6 +29,13 @@ hM2MoEMsph7k2ga9
  gcloud sql connect samplephp --user=root --quiet
 
  gcloud sql connect samplephp --user=sample --quiet
+create database test;
+use test;
+
+ create tables MyGuests { id int, Lastname varchar(255), FirstName varchar(255)};
+
+ insert into MyGuests (id, Lastname, FirstName ) values (1, "Ji", "Harry");
+
 
  6. gcloud config set project yotube-demo-348104
 
