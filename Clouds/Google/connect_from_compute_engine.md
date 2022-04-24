@@ -28,3 +28,6 @@ gcloud compute instances create $MY_INSTANCE_NAME \
     --metadata-from-file startup-script=scripts/startup-script.sh \
     --zone $ZONE \
     --tags http-server
+
+
+gcloud compute instances get-serial-port-output my-app-instance --zone us-central1-a
