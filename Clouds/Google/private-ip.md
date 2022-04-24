@@ -23,3 +23,5 @@ https://github.com/cloudadvocate/google-cloud/tree/master/app-engine
 
 Password123!
 use test;
+
+gcloud app deploy
