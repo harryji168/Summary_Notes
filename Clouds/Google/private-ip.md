@@ -43,4 +43,29 @@ Cloud Deployment Manager V2 API￼
 Cloud Runtime Configuration API￼	
  Enab
 
- 
+
+WordPress
+Solution provided by Google Click to Deploy
+
+Site address
+https://35.229.209.126/ 
+Admin URL
+https://35.229.209.126/wp-admin 
+WordPress MySQL user
+wordpress
+WordPress MySQL password (Temporary)
+k7aqEtje
+MySQL root user
+root
+MySQL root password (Temporary)
+PK8ccMvUihsm2g
+WordPress Admin user
+jiharry@hotmail.com
+WordPress Admin password (Temporary)
+B3+tPe82
+Instance
+wordpress-1-vm
+Instance zone
+asia-east1-c
+Instance machine type
+e2-micro
