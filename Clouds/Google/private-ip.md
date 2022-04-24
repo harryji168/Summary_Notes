@@ -25,3 +25,6 @@ Password123!
 use test;
 
 gcloud app deploy
+
+
+https://geekflare.com/google-cloud-sql-wordpress/
