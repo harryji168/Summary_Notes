@@ -11,3 +11,6 @@ https://www.youtube.com/watch?v=8aJLB2n1LzI
 https://console.cloud.google.com/networking/peering/list?project=yotube-demo-348104
 
 https://www.youtube.com/watch?v=iT_FVR2Dz2o&t=63s
+
+
+gcloud config set project yotube-demo-348104
