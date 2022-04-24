@@ -28,3 +28,17 @@ gcloud app deploy
 
 
 https://geekflare.com/google-cloud-sql-wordpress/
+
+https://console.cloud.google.com/iam-admin/serviceaccounts/details/wordpress@wordpress-347706.iam.gserviceaccount.com?q=search&referrer=search&project=wordpress-347706&walkthrough_id=marketplace_wordpress
+
+
+https://console.cloud.google.com/marketplace/product/click-to-deploy-images/wordpress?walkthrough_tutorial_id=marketplace_wordpress&autoresume=true&project=wordpress-347706
+
+Enable required APIs
+The following APIs are required to deploy a VM product from Marketplace
+Compute Engine API￼	
+ Enabled
+Cloud Deployment Manager V2 API￼	
+ Enabled
+Cloud Runtime Configuration API￼	
+ Enab
