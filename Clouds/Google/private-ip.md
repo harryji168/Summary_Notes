@@ -14,3 +14,5 @@ https://www.youtube.com/watch?v=iT_FVR2Dz2o&t=63s
 
 
 gcloud config set project yotube-demo-348104
+
+gcloud sql connect samplephp --user=sample
