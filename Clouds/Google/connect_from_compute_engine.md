@@ -9,3 +9,5 @@ https://console.cloud.google.com/projectselector2/home/dashboard?_ga=2.255701454
 2. Enable access to API  'Compute Engine API'.
 
 https://console.cloud.google.com/apis/enableflow?project=yotube-demo-348104
+
+gcloud config set project yotube-demo-348104
