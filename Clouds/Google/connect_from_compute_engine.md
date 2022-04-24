@@ -15,7 +15,7 @@ gcloud config set project yotube-demo-348104
 php -S localhost:8080
 
 
-
+https://stackoverflow.com/questions/60640996/how-to-connect-to-google-cloud-sql-instance-using-php
 
 MY_INSTANCE_NAME='my-app-instance'
 ZONE=us-central1-a
@@ -24,7 +24,7 @@ gcloud compute instances create $MY_INSTANCE_NAME \
     --image-family=ubuntu-1804-lts \
     --image-project=ubuntu-os-cloud \
     --machine-type=g1-small \
-    --scopes userinfo-email,cloud-platform \
+    --scopes userinfo-email,cloud-platform,sql-admin \
     --metadata-from-file startup-script=scripts/startup-script.sh \
     --zone $ZONE \
     --tags http-server
