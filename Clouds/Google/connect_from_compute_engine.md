@@ -31,3 +31,13 @@ gcloud compute instances create $MY_INSTANCE_NAME \
 
 
 gcloud compute instances get-serial-port-output my-app-instance --zone us-central1-a
+
+
+gcloud compute firewall-rules create default-allow-http-80 \
+    --allow tcp:80 \
+    --source-ranges 0.0.0.0/0 \
+    --target-tags http-server \
+    --description "Allow port 80 access to http-server"
+
+
+    gcloud compute instances list
