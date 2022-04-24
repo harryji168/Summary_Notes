@@ -20,3 +20,6 @@ gcloud sql connect samplephp --user=sample
 https://cloud.google.com/vpc/docs/configure-serverless-vpc-access
 
 https://github.com/cloudadvocate/google-cloud/tree/master/app-engine
+
+Password123!
+use test;
