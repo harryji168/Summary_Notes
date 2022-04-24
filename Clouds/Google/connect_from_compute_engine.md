@@ -45,3 +45,7 @@ gcloud compute firewall-rules create default-allow-http-80 \
 
 
     sudo apt install mysql-client-core-5.7
+
+
+
+    mysql --host=10.92.224.4 --user=sample --password
