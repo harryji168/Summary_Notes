@@ -16,3 +16,7 @@ https://www.youtube.com/watch?v=iT_FVR2Dz2o&t=63s
 gcloud config set project yotube-demo-348104
 
 gcloud sql connect samplephp --user=sample
+
+https://cloud.google.com/vpc/docs/configure-serverless-vpc-access
+
+https://github.com/cloudadvocate/google-cloud/tree/master/app-engine
