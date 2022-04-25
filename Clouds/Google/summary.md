@@ -1,3 +1,5 @@
+history: 
+
 1. docker file
 
 gcloud builds submit --tag gcr.io/yotube-demo-348104/testapp
