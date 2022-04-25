@@ -35,3 +35,10 @@ https://yotube-demo-348104.uc.r.appspot.com
 sh deploy.sh
 
 http://34.70.169.173/
+
+
+service
+
+VM Manager (OS Config API)
+Container Analysis API
+Binary Authorization API
