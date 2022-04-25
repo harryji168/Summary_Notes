@@ -33,3 +33,5 @@ https://yotube-demo-348104.uc.r.appspot.com
 
 3. compute instance 
 sh deploy.sh
+
+http://34.70.169.173/
