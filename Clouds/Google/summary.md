@@ -19,3 +19,6 @@ gcloud run deploy --image gcr.io/yotube-demo-348104/app-docker  --platform manag
 need public ip?
 
 https://app-docker-e5ripsmmea-uc.a.run.app
+
+34.133.243.2
+10.92.224.4
