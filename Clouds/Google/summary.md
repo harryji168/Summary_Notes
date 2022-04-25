@@ -22,3 +22,9 @@ https://app-docker-e5ripsmmea-uc.a.run.app
 
 34.133.243.2
 10.92.224.4
+
+
+
+2. vpc 
+
+app.yaml 
