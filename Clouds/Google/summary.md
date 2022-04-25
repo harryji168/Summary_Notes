@@ -42,3 +42,4 @@ service
 VM Manager (OS Config API)
 Container Analysis API
 Binary Authorization API
+Cloud Source Repositories API
