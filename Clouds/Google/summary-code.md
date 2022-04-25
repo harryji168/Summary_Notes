@@ -14,12 +14,12 @@ gcloud config set run/region us-central1
 ```
 
 ```
-gcloud builds submit --tag gcr.io/codeigniter-angularjs-0218/hello-youtube
+gcloud builds submit --tag gcr.io/codeigniter-angularjs-0218/test-db
 ```
 
 
 ```
-gcloud run deploy --image gcr.io/codeigniter-angularjs-0218/hello-youtube  --platform managed --add-cloudsql-instances codeigniter-angularjs-0218:us-central1:owner-pet --set-env-vars CLOUD_SQL_CONNECTION_NAME=codeigniter-angularjs-0218:us-central1:owner-pet
+gcloud run deploy --image gcr.io/codeigniter-angularjs-0218/test-db  --platform managed --add-cloudsql-instances codeigniter-angularjs-0218:us-central1:owner-pet --set-env-vars CLOUD_SQL_CONNECTION_NAME=codeigniter-angularjs-0218:us-central1:owner-pet
 ```
  
 https://app-docker-e5ripsmmea-uc.a.run.app/
