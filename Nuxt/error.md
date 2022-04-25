@@ -20,3 +20,5 @@ npm install --save nuxt
 
 
 --unsafe-perm
+
+error /home/harryji/nuxt/blog/node_modules/node-sass: Command failed.
