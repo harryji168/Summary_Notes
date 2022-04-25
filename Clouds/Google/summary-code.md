@@ -1,10 +1,9 @@
 history: 
 
-https://app-docker-e5ripsmmea-uc.a.run.app
-
-34.133.243.2
-10.92.224.4
-
+ 'username' => 'owner-pet',
+	'password' => '0216',
+	'database' => 'owner-pet',
+	'dbdriver' => 'mysqli',
 
 1. docker file Dockerfile  
 ```
