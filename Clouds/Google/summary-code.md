@@ -20,7 +20,7 @@ gcloud builds submit --tag gcr.io/codeigniter-angularjs-0218/hello-youtube
 
 
 ```
-gcloud run deploy --image gcr.io/codeigniter-angularjs-0218/hello-youtube  --platform managed --add-cloudsql-instances yotube-demo-348104:us-central1:samplephp --set-env-vars CLOUD_SQL_CONNECTION_NAME=yotube-demo-348104:us-central1:samplephp
+gcloud run deploy --image gcr.io/codeigniter-angularjs-0218/hello-youtube  --platform managed --add-cloudsql-instances codeigniter-angularjs-0218:us-central1:owner-pet --set-env-vars CLOUD_SQL_CONNECTION_NAME=codeigniter-angularjs-0218:us-central1:owner-pet
 ```
  
 https://app-docker-e5ripsmmea-uc.a.run.app/
