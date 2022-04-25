@@ -31,4 +31,5 @@ gcloud app deploy
 https://yotube-demo-348104.uc.r.appspot.com
 
 
-3. compute instance deloy.sh
+3. compute instance 
+sh deploy.sh
