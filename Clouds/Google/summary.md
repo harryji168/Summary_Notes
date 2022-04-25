@@ -11,4 +11,6 @@ gcloud run deploy --image gcr.io/yotube-demo-348104/app-docker  --platform manag
 gcloud config set run/region us-central1`
 ```
 
+need public ip?
+
 https://app-docker-e5ripsmmea-uc.a.run.app
