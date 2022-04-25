@@ -13,3 +13,9 @@ Here /path/to/nuxt-project contains your package.json and node-modules.
 If it isn't installed, add nuxt to your project by doing:
 
 npm install --save nuxt
+
+
+
+## https://stackoverflow.com/questions/37324519/node-sass-does-not-yet-support-your-current-environment-linux-64-bit-with-false
+
+
