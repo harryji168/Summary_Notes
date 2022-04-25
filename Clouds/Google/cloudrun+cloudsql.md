@@ -23,7 +23,11 @@ Cloud SQL Client
 
 4. create mysql instances
 samplephp
+root
 hM2MoEMsph7k2ga9
+
+sample
+Password123!
 
 5. cloud shell
  gcloud sql connect samplephp --user=root --quiet
