@@ -19,3 +19,4 @@ npm install --save nuxt
 ## https://stackoverflow.com/questions/37324519/node-sass-does-not-yet-support-your-current-environment-linux-64-bit-with-false
 
 
+--unsafe-perm
