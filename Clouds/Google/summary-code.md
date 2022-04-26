@@ -65,3 +65,5 @@ service-849042100555@serverless-robot-prod.iam.gserviceaccount.com
  github-cloudbuild@codeigniter-angularjs-0218.iam.gserviceaccount.com
 
  github-codeigniter-angularjs-0218-b024de6d26f1.json
+
+ gcloud auth activate-service-account github-cloudbuild@codeigniter-angularjs-0218.iam.gserviceaccount.com  --key-file=./github-codeigniter-angularjs-0218-b024de6d26f1.json
