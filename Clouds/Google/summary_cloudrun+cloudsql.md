@@ -65,6 +65,10 @@ hM2MoEMsph7k2ga9
 sample
 Password123!
 
+
+34.133.79.237
+codeigniter-angularjs-0218:us-central1:samplephp
+
 5. cloud shell
  gcloud sql connect samplephp --user=root --quiet
 
