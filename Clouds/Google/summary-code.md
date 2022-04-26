@@ -56,3 +56,6 @@ us-central1	default
 gcloud auth list
 
 gcloud auth activate-service-account 849042100555-compute@developer.gserviceaccount.com --key-file=./codeigniter-angularjs-0218-81e3167a6080.json
+
+
+service-849042100555@serverless-robot-prod.iam.gserviceaccount.com
