@@ -1,8 +1,13 @@
 https://www.youtube.com/watch?v=cBrn5IM4mA8
 
+$username = 'owner-pet';
+$password = '0216';
+$dbName = 'owner-pet';
+$dbHost = "34.67.189.246";
+
 gcloud config set project codeigniter-angularjs-0218
 
-gcloud sql connect wp-mysql --user=wordpress --quiet
+gcloud sql connect owner-pet --user=owner-pet --quiet
 
 https://www.youtube.com/watch?v=jvZXbJv6qJ4y
 
