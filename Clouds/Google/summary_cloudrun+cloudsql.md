@@ -9,6 +9,9 @@ gcloud config set project codeigniter-angularjs-0218
 
 gcloud sql connect owner-pet --user=owner-pet --quiet
 
+use owner-pet;
+select * from pet_types;
+
 https://www.youtube.com/watch?v=jvZXbJv6qJ4y
 
 
