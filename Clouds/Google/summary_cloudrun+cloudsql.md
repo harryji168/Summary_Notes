@@ -76,7 +76,7 @@ codeigniter-angularjs-0218:us-central1:samplephp
 create database test;
 use test;
 
- create tables MyGuests { id int, Lastname varchar(255), FirstName varchar(255)};
+ create table MyGuests ( id int, Lastname varchar(255), FirstName varchar(255));
 
  insert into MyGuests (id, Lastname, FirstName ) values (1, "Ji", "Harry");
 
