@@ -16,7 +16,7 @@ select * from pet_types;
 10.25.144.4
 
 try {
-    $dbh = new PDO('mysql:host=10.25.144.4;dbname=owner-pet', 'owner-pet', '0216');
+    $dbh = new PDO('mysql:host=10.25.144.4;dbname=owner-pet;unix_socket=/cloudsql/codeigniter-angularjs-0218:us-central1:owner-pet', 'owner-pet', '0216');
     foreach($dbh->query('SELECT * from pet_types') as $row) {
         print_r($row);
     }
