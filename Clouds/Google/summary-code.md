@@ -50,3 +50,7 @@ Cloud SQL Admin API
 VPC
 us-central1	default			
 10.128.0.0/20	10.128.0.1			Off	
+
+
+
+# gcloud auth list
