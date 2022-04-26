@@ -37,8 +37,10 @@ chmod +x ./cloud_sql_proxy
 get ip address
 https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/
 
+```
 dig +short myip.opendns.com @resolver1.opendns.com
-
+```
+35.203.131.89
 
 https://www.youtube.com/watch?v=jvZXbJv6qJ4y
 
