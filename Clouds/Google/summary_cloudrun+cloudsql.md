@@ -28,7 +28,9 @@ try {
 
 
 wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy
-
+chmod +x ./cloud_sql_proxy
+ 
+./cloud_sql_proxy -instances=codeigniter-angularjs-0218:us-central1:owner-pet -dir=./cloudsql
 
 https://www.youtube.com/watch?v=jvZXbJv6qJ4y
 
