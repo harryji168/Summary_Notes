@@ -12,6 +12,20 @@ gcloud sql connect owner-pet --user=owner-pet --quiet
 use owner-pet;
 select * from pet_types;
 
+
+10.25.144.4
+
+try {
+    $dbh = new PDO('mysql:host=10.25.144.4;dbname=owner-pet', 'owner-pet', '0216');
+    foreach($dbh->query('SELECT * from pet_types') as $row) {
+        print_r($row);
+    }
+    $dbh = null;
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
+}
+
 https://www.youtube.com/watch?v=jvZXbJv6qJ4y
 
 
