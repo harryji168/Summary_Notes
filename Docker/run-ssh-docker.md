@@ -3,3 +3,5 @@ docker-compose exec app bash
 
 
 docker ps
+
+docker exec -it capiche-core_database_1 /bin/bash
