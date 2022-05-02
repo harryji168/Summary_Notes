@@ -1,3 +1,3 @@
-https://www.configserverfirewall.com/ubuntu-linux/ubuntu-install-mysql-client/
+https://linuxhint.com/best_mysql_clients_ubuntu/
 
-apt-get install mysql-client
+DataGrip
