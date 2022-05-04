@@ -1,3 +1,6 @@
+
+
+
 show table 
 MySQL Workbench Manual :: 8.2.3 Schema and Table Inspector
 
