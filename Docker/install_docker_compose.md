@@ -18,6 +18,9 @@ Search for libcurl bindings for your programming needs: apt-cache search libcurl
 Install the Python bindings to libcurl: sudo apt install python3-pycurl
 Search for other curl bindings to libcurl: apt-cache search libcurl
 
+# install Docker 
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
+
 
 # Install Docker Compose
 
