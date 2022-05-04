@@ -1,3 +1,24 @@
+# Installing cURL for Ubuntu Linux
+
+he procedure to install cURL on Ubuntu Linux is as follows:
+
+Update your Ubuntu box, run: 
+```
+sudo apt update && sudo apt upgrade
+```
+Next, install cURL, execute: 
+```
+sudo apt install curl
+```
+Verify install of curl on Ubuntu by running: 
+```
+curl --version
+```
+Search for libcurl bindings for your programming needs: apt-cache search libcurl | grep python
+Install the Python bindings to libcurl: sudo apt install python3-pycurl
+Search for other curl bindings to libcurl: apt-cache search libcurl
+
+
 # Install Docker Compose
 
 https://docs.docker.com/compose/install/
