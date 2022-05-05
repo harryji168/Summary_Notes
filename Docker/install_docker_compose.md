@@ -22,6 +22,28 @@ Search for other curl bindings to libcurl: apt-cache search libcurl
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 
 
+sudo apt update
+￼Copy
+Next, install a few prerequisite packages which let apt use packages over HTTPS:
+
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+￼Copy
+Then add the GPG key for the official Docker repository to your system:
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+￼Copy
+Add the Docker repository to APT sources:
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+￼Copy
+This will also update our package database with the Docker packages from the newly added repo.
+
+Make sure you are about to install from the Docker repo instead of the default Ubuntu repo:
+
+apt-cache policy docker-ce
+￼Copy
+
+
 # Install Docker Compose
 
 https://docs.docker.com/compose/install/
