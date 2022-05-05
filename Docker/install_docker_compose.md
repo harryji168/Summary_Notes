@@ -42,6 +42,10 @@ Make sure you are about to install from the Docker repo instead of the default U
 
 apt-cache policy docker-ce
 ￼Copy
+sudo apt install docker-ce
+Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running:
+
+sudo systemctl status docker
 
 
 # Install Docker Compose
