@@ -97,6 +97,7 @@ bundle exec rake webpacker:install
 rails db:create
 rails db:migrate
 rails db:seed
+rails s 
 ```
 
 # install ruby 2.6.3
