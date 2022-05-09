@@ -4,6 +4,12 @@ use https://downloads.mysql.com/archives/workbench/
 
 https://dev.mysql.com/downloads/workbench/
 
+Ubuntu Linux 20.04 (x86, 64-bit), DEB Package	Dec 15, 2021	28.1M	
+Download
+(mysql-workbench-community_8.0.28-1ubuntu20.04_amd64.deb)
+
+
+
 https://linuxhint.com/installing_mysql_workbench_ubuntu/
 
 
