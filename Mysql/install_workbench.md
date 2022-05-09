@@ -1,5 +1,8 @@
 use https://downloads.mysql.com/archives/workbench/
 
+laravel_user
+secretpassword
+
 
 
 https://dev.mysql.com/downloads/workbench/
