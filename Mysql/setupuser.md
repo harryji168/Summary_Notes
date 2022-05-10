@@ -17,3 +17,7 @@ GRANT ALL ON laravel_db.* TO 'laravel_user'@'localhost';
 FLUSH PRIVILEGES;
 QUIT;
 ```
+
+CREATE DATABASE sandbox;
+GRANT ALL ON sandbox.* TO 'root'@'localhost';
+FLUSH PRIVILEGES;
