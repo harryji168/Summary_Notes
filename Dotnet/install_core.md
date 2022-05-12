@@ -1,0 +1,1 @@
+https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu#2110-
