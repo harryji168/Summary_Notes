@@ -1,0 +1,16 @@
+{
+  "name": "muddled-temper-critique-1nivi",
+  "productName": "muddled-temper-critique-1nivi",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "harryji",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "13.1.7"
+  }
+}

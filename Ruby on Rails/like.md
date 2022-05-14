@@ -1,0 +1,1 @@
+https://www.ruby-forum.com/t/like-clause-in-rails/124450

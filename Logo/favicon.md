@@ -1,0 +1,1 @@
+https://addons.prestashop.com/en/create-favicon.php?pab=1
