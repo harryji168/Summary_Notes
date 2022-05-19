@@ -15,10 +15,6 @@ To view channels, that are visible to your account, including group conversation
 
 slackdump -c
 
-capiche-team.slack.com
-codecoreyvr.slack.com
-
-
 
 
 
