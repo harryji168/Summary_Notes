@@ -2,7 +2,7 @@
 
 https://github.com/rusq/slackdump
 
-
+https://github.com/rusq/slackdump/releases
 
 Dumping users
 To view all users, run:
