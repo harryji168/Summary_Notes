@@ -21,3 +21,5 @@ QUIT;
 CREATE DATABASE sandbox;
 GRANT ALL ON sandbox.* TO 'root'@'localhost';
 FLUSH PRIVILEGES;
+
+GRANT ALL ON ci_multilanguage.* TO 'laravel_user'@'localhost';
