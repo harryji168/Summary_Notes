@@ -39,3 +39,5 @@ Restart your system for these changes to take effect.
 
 Through this article, you learned to change the cursor size to whatever seems appropriate to your eyes through the GUI and the command line.
 # gsettings set org.gnome.desktop.interface cursor-size 96
+
+# gsettings set org.gnome.desktop.interface cursor-size 24
