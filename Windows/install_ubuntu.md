@@ -10,3 +10,10 @@ https://askubuntu.com/questions/1264102/wsl-2-wont-run-ubuntu-error-0x80370102
 
 
 bcdedit /set hypervisorlaunchtype auto
+
+https://superuser.com/questions/1110974/how-to-access-linux-ubuntu-files-from-windows-10-wsl
+
+ explorer.exe .
+
+
+ \\wsl$\Ubuntu\home\harryji
