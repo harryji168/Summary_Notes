@@ -7,3 +7,6 @@ optionalfeatures.exe
 
 
 https://askubuntu.com/questions/1264102/wsl-2-wont-run-ubuntu-error-0x80370102
+
+
+bcdedit /set hypervisorlaunchtype auto
