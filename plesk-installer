@@ -1,0 +1,522 @@
+#!/bin/sh
+### Copyright 1999-2021. Plesk International GmbH. All rights reserved.
+
+### There are two modes this source code is working in (as a result two corresponding scripts are produced):
+### 1. one-click-installer - always installs the latest available version of Plesk for an environment, where the installer was executed
+### 2. plesk-installer - just transparently for a user downloads autoinstaller binary, which corresponds to an environment, where the installer was executed
+### 'current_mode' is defined on building stage to produce two scripts from one source
+current_mode="plesk-installer"
+### If non-empty, this will specify default installation source. It will end up in .autoinstallerrc as well.
+override_source=""
+
+### This script writes json error report into $PLESK_INSTALLER_ERROR_REPORT if specified.
+### Possible error types ("errtype" field):
+### - "unsupportedos" - OS is not supported. Also contains field "os" with OS name e.g. "Ubuntu 12.04 x64"
+### - "osdetecterror" - cannot determine OS. Field "details" may contain additional info about the error.
+### - "autoinstallunavailable" - cannot download autoinstaller from autoinstall.plesk.com server (or its mirror)
+### - "pleskinstalled" - Plesk already installed (only in one-click-installer mode). Field "version" contains Plesk version.
+### Also report contains fields
+### - "level" - either "error" or "fatal".
+### - "date" - time of error occurance ("2020-03-24T06:59:43,127545441+0000")
+### - "error" - human readable error message.
+
+### Set env variable PLESK_INSTALLER_USE_UP2DATE_OSES_ONLY=yes to work only on OSes which supports actual Plesk version.
+
+set -efu
+
+die()
+{
+	# dash's builtin echo does not correctly handle '-e'
+	/bin/echo -e "ERROR: $*" >&2
+	exit 1
+}
+
+find_python_bin()
+{
+	for bin in "/opt/psa/bin/python" "/usr/local/psa/bin/python" "/usr/bin/python2" "/usr/libexec/platform-python" "/usr/bin/python3"; do
+		if [ -x "$bin" ]; then
+			echo "$bin"
+			break
+		fi
+	done
+}
+
+# @params are tags in format "key=value"
+# Report body (human readable information) is read from stdin
+# and copied to stderr.
+make_error_report()
+{
+	local report_file="${PLESK_INSTALLER_ERROR_REPORT:-}"
+	local python_bin="$(find_python_bin)"
+
+	if [ -n "$report_file" -a -x "$python_bin" ]; then
+		"$python_bin" -c 'import sys, json
+report_file = sys.argv[1]
+error = sys.stdin.read()
+
+sys.stderr.write(error)
+
+data = {
+    "error": error,
+}
+
+for tag in sys.argv[2:]:
+    k, v = tag.split("=", 1)
+    data[k] = v
+
+with open(report_file, "a") as f:
+    json.dump(data, f)
+    f.write("\n")
+' "$report_file" "date=$(date --utc --iso-8601=ns)" "$@"
+	else
+		cat - >&2
+	fi
+}
+
+get_os_full_name()
+{
+	echo "${os_name}${os_version:+ ${os_version}}${arch:+ ${arch}}"
+}
+
+die_unsupported_os()
+{
+	local os_full_name="`get_os_full_name`"
+	/bin/echo -n 'ERROR: ' >&2
+	make_error_report 'level=fatal' 'errtype=unsupportedos' "os=$os_full_name" <<-EOL
+		You are trying to run Plesk Installer on an unsupported OS.
+		${os_name:+Your OS is $os_full_name}
+		The list of supported OS is at https://docs.plesk.com/release-notes/current/software-requirements/
+	EOL
+	exit 1
+}
+
+die_undefined_os()
+{
+	/bin/echo -ne "ERROR: ${1:+${1}\n}" >&2
+	make_error_report 'level=fatal' 'errtype=osdetecterror' "details=$1" <<-EOL
+		Probably you are trying to run Plesk Installer on an unsupported OS.
+		The list of supported OS is at https://docs.plesk.com/release-notes/current/software-requirements/
+	EOL
+	exit 1
+}
+
+die_autoinstall_unavailable()
+{
+	/bin/echo -n "ERROR: " >&2
+	make_error_report 'level=error' 'errtype=autoinstallunavailable' <<-EOL
+		Temporary network problem. Check your connection to ${override_source:-autoinstall.plesk.com}, contact your provider or open a support ticket.
+	EOL
+	exit 1
+}
+
+verbose()
+{
+	if [ -n "$verbose" ]; then
+		echo "$@" >&2
+	fi
+}
+
+check_root()
+{
+	if [ `id -u` -ne 0 ]; then
+		die "You should have superuser privileges to install Plesk"
+	fi
+}
+
+check_for_upgrade()
+{
+	local prefix
+	local version=
+	for prefix in /opt/psa /usr/local/psa; do
+		if [ -e "$prefix/version" ]; then
+			version=`cat $prefix/version |  awk '{ print $1 }'`
+			break
+		fi
+	done
+
+	if [ -n "$version" ]; then
+		verbose "You have Plesk v $version installed."
+		if [ "$current_mode" = "one-click-installer" ]; then
+			local installer_url="http://autoinstall.plesk.com/plesk-installer"
+			[ -z "$override_source" ] || installer_url="$override_source/plesk-installer-cn"
+			### we should stop installation of the latest available version if some Plesk version is already installed
+			make_error_report 'level=error' 'errtype=pleskinstalled' "version=$version" <<-EOL
+				You can't use one-click-installer since you already have Plesk installed.
+				You should use interactive installer mode instead, to use it run 'plesk installer' in shell console.
+				Note: to run Plesk installer using Web UI (https://<you_host>:8447) you should use --web-interface option, in other cases it will work via shell console.
+			EOL
+			exit 0
+		fi
+	fi
+}
+
+fetch_file()
+{
+	local url=$1
+	local target=$2
+
+	if [ -x "/usr/bin/wget" ]; then
+		cmd="/usr/bin/wget $url -O $target"
+	elif [ -x "/usr/bin/curl" ]; then
+		cmd="/usr/bin/curl -fv $url -o $target"
+	else
+		die "Unable to find download manager(wget, curl)"
+	fi
+
+	verbose "Transport command is $cmd"
+
+	$cmd
+}
+
+fetch_autoinstaller()
+{
+	local ai_name="$1"
+	local ai_dest="$2"
+	local sources="$source http://autoinstall.plesk.com"
+	local fetch_output=
+	local fetch_rc=
+	local installers="Installer/$initial_ai_version"
+	[ -n "${PLESK_INSTALLER_USE_UP2DATE_OSES_ONLY:-}" ] || installers="$installers Parallels_Installer"
+
+	rm -f "$ai_dest" >/dev/null 2>&1
+
+	for ai in $installers; do
+		for src in $sources; do
+			fetch_rc=0
+			fetch_output="$fetch_output`fetch_file "$src/$ai/$ai_name" "$ai_dest" 2>&1`" && break || fetch_rc=$?
+		done
+		[ ! "$fetch_rc" -eq 0 ] || break
+	done
+
+	[ "$fetch_rc" -eq 0 -a -z "$verbose" ] || echo "$fetch_output"
+	if [ "$fetch_rc" -ne 0 ]; then
+		if echo "$fetch_output" | grep -q "404 Not Found" ; then
+			die_unsupported_os
+		else
+			die_autoinstall_unavailable
+		fi
+	fi
+
+	chmod 0700 "$ai_dest"
+}
+
+fetch_report_update()
+{
+	local report_dest="$1"
+	local sources="$source http://autoinstall.plesk.com"
+	local fetch_output=
+	local fetch_rc=
+
+	rm -f "$report_dest" >/dev/null 2>&1
+
+	for src in $sources; do
+		fetch_rc=0
+		fetch_output="$fetch_output`fetch_file "$src/report-update" "$report_dest" 2>&1`" && break || fetch_rc="$?"
+	done
+
+	[ "$fetch_rc" -eq 0 -o -z "$verbose" ] || echo "$fetch_output"
+
+	return "$fetch_rc"
+}
+
+get_plesk_version()
+{
+	plesk version 2>/dev/null | sed -ne '/Product version: / p' | tr -cd '0-9.#' | tr '#' '.' || :
+}
+
+setup_report_update()
+{
+	REPORT_BIN="/var/cache/parallels_installer/report-update"
+	REPORT_START_FLAG="/var/lock/plesk-report-update.flag"
+	REPORT_FROM="`get_plesk_version`"
+
+	if fetch_report_update "$REPORT_BIN"; then
+		touch "$REPORT_START_FLAG"
+		trap -- '_exit_handler $?' EXIT
+	fi
+}
+
+_exit_handler()
+{
+	local rc="$1"
+	local python_bin="$(find_python_bin)"
+
+	[ -x "$python_bin" -a -f "$REPORT_BIN" ] || return "$rc"
+
+	REPORT_TO="`get_plesk_version`"
+	"$python_bin" -Estt "$REPORT_BIN" --op "run-installer" --rc "$rc" --start-flag "$REPORT_START_FLAG" 		${REPORT_FROM:+--from "$REPORT_FROM"} ${REPORT_TO:+--to "$REPORT_TO"} || :
+}
+
+put_source_into_autoinstallerrc()
+{
+	local source="$1"
+	local ai_rc="/root/.autoinstallerrc"
+
+	[ -n "$source" ] || return 0
+	! grep -q '^\s*SOURCE\s*=' "$ai_rc" 2>/dev/null || return 0
+
+	echo "# SOURCE value is locked by $current_mode script" >> "$ai_rc"
+	echo "SOURCE = $source" >> "$ai_rc"
+	chmod go-wx "$ai_rc"
+}
+
+get_os_info()
+{
+	[ -e '/bin/uname' ] && uname='/bin/uname' || uname='/usr/bin/uname'
+	arch=`uname -m`
+	local os_sn
+
+	case $arch in
+		i?86) arch="i386" ;;
+		*) : ;;
+	esac
+
+	opsys=`uname -s`
+	if [ "$opsys" = 'Linux' ]; then
+		if [ -e '/etc/debian_version' ]; then
+			if [ -e '/etc/lsb-release' ]; then
+				# Mostly ubuntu, but debian can have it
+				. /etc/lsb-release
+				os_name=$DISTRIB_ID
+				os_version=$DISTRIB_RELEASE
+			else
+				os_name='Debian'
+				os_version=`head -1 /etc/debian_version`
+			fi
+			case $os_name in
+				Debian)
+					os_version=`echo "$os_version" | grep -o "^[0-9]\+"`
+					[ -z "$os_version" ] || os_version="$os_version.0"
+					;;
+				Ubuntu)
+					;;
+				*)
+					verbose "Unknown OS is specified in /etc/lsb-release${os_name:+: `get_os_full_name`}"
+					die_unsupported_os
+					;;
+			esac
+		elif [ -e '/etc/redhat-release' ]; then
+			os_name=`awk '{print $1}' /etc/redhat-release`
+			# for rh based os get only major
+			os_version=`head -1 /etc/redhat-release | sed -e 's/[^0-9.]*\([0-9.]*\).*/\1/g' | awk -F'.' '{print $1}'`
+			case $os_name$os_version$arch in
+				CentOS*|Cloud*|Virtuozzo*|AlmaLinux*)
+					;;
+				Red*)
+					os_name="RedHat";
+					os_version="el$os_version"
+					;;
+				*)
+					verbose "Unknown OS is specified in /etc/redhat-release${os_name:+: `get_os_full_name`}"
+					die_unsupported_os
+					;;
+			esac
+		else
+			die_undefined_os "Unable to detect OS: neither /etc/debian_version nor /etc/redhat-release found."
+		fi
+	else
+		die_undefined_os "Unable to detect OS: 'uname -s' returned '$opsys' (expected 'Linux')."
+	fi
+
+	[ -n "$os_name" ]    || die_undefined_os "Unable to detect OS."
+	[ -n "$os_version" ] || die_undefined_os "Unable to detect `get_os_full_name` version."
+	[ -n "$arch" ]       || die_undefined_os "Unable to detect `get_os_full_name` architecture."
+
+	if [ "$os_name" = "RedHat" -a "$os_version" = "el7" ]; then
+		os_name="CentOS"
+		os_version="7"
+	fi
+
+	if [ "$os_name" = "Virtuozzo" -a "$os_version" = "7" ]; then
+		os_name="VZLinux"
+		os_version="7"
+	fi
+
+	verbose "Detected OS `get_os_full_name`"
+}
+
+unset GREP_OPTIONS
+
+verbose=
+dry_run=
+os_name=
+os_version=
+arch=
+source="$override_source"
+tiers="release,stable"
+initial_ai_version="3.38.0"
+
+parse_args()
+{
+	while [ "$#" -gt 0 ]; do
+		case "$1" in
+			--source)
+				source="$2"
+				[ "$#" -ge 2 ] && shift 2 || break
+				;;
+			--tier)
+				[ "$current_mode" != "one-click-installer" ] || tiers="$2"
+				[ "$#" -ge 2 ] && shift 2 || break
+				;;
+			-v)
+				[ "$current_mode" != "one-click-installer" ] || verbose=1
+				shift
+				;;
+			-n)
+				[ "$current_mode" != "one-click-installer" ] || dry_run=1
+				shift
+				;;
+			*)
+				shift
+				;;
+		esac
+	done
+}
+
+update_os_components_deb()
+{
+	local missing_packages=''
+
+	# Workaround for libssl < 1.1.1
+	if [ "$os_name" = "Ubuntu" -a "$os_version" = "18.04" ]; then
+		local libssl_package='libssl1.1'
+		local libssl_version="`dpkg-query --show --showformat='${Version}' $libssl_package`"
+		! dpkg --compare-versions "$libssl_version" lt '1.1.1' ||
+			missing_packages="$missing_packages $libssl_package"
+	fi
+
+	# If Python 3 is installed and doesn't have modules for PEX, install them (for report-update fallback)
+	if [ "$os_name" = "Ubuntu" -a "${os_version%%.*}" -ge "18" ] || [ "$os_name" = "Debian" -a "${os_version%%.*}" -ge "10" ]; then
+		! /usr/bin/python3 -c '' 2>/dev/null || /usr/bin/python3 -c 'import distutils.sysconfig' 2>/dev/null ||
+			missing_packages="$missing_packages python3-distutils"
+	fi
+
+	! /usr/bin/python3 -c '' 2>/dev/null || /usr/bin/python3 -c 'import distutils.sysconfig, zipfile' 2>/dev/null ||
+		missing_packages="$missing_packages libpython3-stdlib"
+
+	# gnupg packages when autoinstaller runs `apt-key add <plesk.key>`
+	# ca-certificates package when autoinstaller downloads extension catalog feed via https
+	# icu-devtools is for autoinstaller: libicu66 on Ubuntu 20.04, libicu60 on Ubuntu 18.04, libicu55 on Ubuntu 16.04, libicu63 on Debian 10, libicu57 on Debian 9, libicu52 on Debian 8
+	for pkg in 'ca-certificates' 'gnupg' 'icu-devtools'; do
+		dpkg -s "$pkg" > /dev/null 2>&1 || missing_packages="$missing_packages $pkg"
+	done
+
+	if [ -n "$missing_packages" ]; then
+		verbose "Install required packages: $missing_packages"
+		APTENV="DEBIAN_FRONTEND=noninteractive LANG=C PATH=/usr/sbin:/usr/bin:/sbin:/bin"
+		APTCMD="apt-get -qq --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold -o APT::Install-Recommends=no"
+		local update_rc update_output install_rc install_output
+		update_rc=0
+		update_output=`env $APTENV $APTCMD update 2>&1` || update_rc=$?
+		install_rc=0
+		install_output=`env $APTENV $APTCMD install $missing_packages 2>&1` || install_rc=$?
+		if [ "$install_rc" -ne 0 ]; then
+			[ -z "$update_output" -o "$update_rc" -eq 0 ] || echo "$update_output" >&2
+			[ -z "$install_output" ] || echo "$install_output" >&2
+			die "Failed to install or update packages required for Plesk Installer: $missing_packages.\nPlease make sure they are installed and up-to-date, then re-run the command."
+		fi
+	fi
+}
+
+update_os_components_rpm()
+{
+	case "${os_version}" in
+		7|el7)
+			# openssl 1.0.2* is latest version on current CentOS 7.7
+			case "`rpm -q --queryformat '%{VERSION}' openssl-libs`" in
+				1.0.1*)
+					local openssl_packages='openssl openssl-libs'
+					local yum_output
+					local rc=0
+					yum_output=`yum update --quiet -y $openssl_packages 2>&1` || rc=$?
+					if [ "$rc" -ne 0 ]; then
+						echo "$yum_output" >&2
+						die "Failed to install or update packages required for Plesk Installer: $openssl_packages.\nPlease make sure they are installed and up-to-date, then re-run the command."
+					fi
+					;;
+			esac
+		;;
+	esac
+}
+
+update_os_components()
+{
+	[ -z "$dry_run" ] || return 0
+	if [ "$os_name" = 'Debian' -o "$os_name" = "Ubuntu" ]; then
+		update_os_components_deb
+	else
+		update_os_components_rpm
+	fi
+}
+
+parse_args "$@"
+check_root
+check_for_upgrade
+
+ai_dest='/var/cache/parallels_installer/installer'
+ai_dest_dir=`dirname $ai_dest`
+if [ ! -d "$ai_dest_dir" ]; then
+	mkdir -p "$ai_dest_dir"
+	chmod 0700 "$ai_dest_dir"
+fi
+
+setup_report_update
+get_os_info
+update_os_components
+
+ai_name="parallels_installer_${os_name}_${os_version}_${arch}"
+fetch_autoinstaller "$ai_name" "$ai_dest"
+
+[ -n "$dry_run" ] || put_source_into_autoinstallerrc "$source"
+
+ai_args=
+if [ "$current_mode" = "one-click-installer" ]; then
+	ai_args="--select-product-id plesk --select-release-latest --tier $tiers --installation-type Typical"
+	[ -z "$source" ] || ai_args="$ai_args --source $source"
+fi
+
+if [ "" = "yes" ]; then
+	if [ "$1" = "--query-installation-status" ]; then
+		ai_status=$("$ai_dest" --query-status --enable-xml-output)
+		ret=$?
+		if echo "$ai_status" | grep -q 'status="query_busy"'; then
+		# Autoinstaller is still in action, so we return it's status
+				echo "$ai_status"
+				[ -z "$dry_run" ] || rm -f "$ai_dest"
+				exit $ret
+		fi
+
+		if echo "$ai_status" | grep -q 'status="query_ok"' && echo "$ai_status" | grep -qv 'finished="true"'; then
+		# Autoinstaller is idle (not query_busy), and stopped (no info about finished)
+				if [ -e "/var/lock/parallels-panel-upgrade-failure.flag" ]; then
+						echo "$ai_status" | sed -e 's,<progress>.*</progress>,<progress finished="true" failed="true"><error>Installation or upgrade of Plesk has failed</error></progress>'
+						[ -z "$dry_run" ] || rm -f "$ai_dest"
+						exit $ret
+				fi
+		fi
+
+		echo "$ai_status"
+		[ -z "$dry_run" ] || rm -f "$ai_dest"
+		exit $ret
+	fi
+fi
+
+# set env variable to separate one-click installation from manual installation at Plesk side
+if [ "$current_mode" = "one-click-installer" ]; then
+	export PLESK_ONE_CLICK_INSTALLER=yes;
+fi
+
+if [ -n "$ai_args" ]; then
+	verbose "The following command will run: $ai_dest $ai_args"
+	[ -n "$dry_run" ] || "$ai_dest" $ai_args
+else
+	if [ -n "$override_source" -a "$override_source" = "$source" ]; then
+		# if --source wasn't overriden on command line, but is overriden in the script, then enforce its value
+		ai_args="$ai_args --source $source"
+	fi
+
+	verbose "The following command will run: $ai_dest $* $ai_args"
+	[ -n "$dry_run" ] || "$ai_dest" "$@" $ai_args
+fi
+
+[ -z "$dry_run" ] || rm -f "$ai_dest"

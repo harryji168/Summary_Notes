@@ -1,0 +1,4 @@
+Symfony is a PHP web application framework and a set of reusable PHP components/libraries. It was published as free software on October 18, 2005 and released under the MIT license.
+Symfony aims to speed up the creation and maintenance of web applications and to replace repetitive coding tasks. It's also aimed at building robust applications in an enterprise context, and aims to give developers full control over the configuration: from the directory structure to the foreign libraries, almost everything can be customized.[2] To match enterprise development guidelines, Symfony is bundled with additional tools to help developers test, debug and document projects.[3]
+
+Symfony has a low performance overhead used with a bytecode cache.

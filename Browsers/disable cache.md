@@ -1,0 +1,1 @@
+https://www.webinstinct.com/faq/how-to-disable-browser-cache#:~:text=When%20you're%20in%20Google,the%20box%20to%20Disable%20cache.
