@@ -3,6 +3,10 @@ https://linuxize.com/post/how-to-install-php-8-on-ubuntu-20-04/
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 
+sudo apt update
+sudo apt install php8.0 libapache2-mod-php8.0
+
+sudo systemctl restart apache2
 
 https://nextgentips.com/2021/12/03/how-to-install-php-8-1-on-ubuntu-21-04/
 
