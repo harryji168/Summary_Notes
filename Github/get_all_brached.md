@@ -15,3 +15,8 @@ I had used below commands to migrate all branches to the new repository.
 git clone --mirror https://github.com/Capicheio/capiche-core-testbed/
 
 cd capiche-core-testbed
+
+git remote add new-origin https://github.com/harryji168/testbed5
+
+git push new-origin master
+git push new-origin --mirror
