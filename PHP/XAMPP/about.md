@@ -1,0 +1,3 @@
+XAMPP is a completely free, easy to install Apache distribution containing MariaDB, PHP, and Perl. The XAMPP open source package has been set up to be ...
+
+https://technowikis.com/40815/how-to-install-xampp-on-ubuntu-21-04-hirsute-hippo

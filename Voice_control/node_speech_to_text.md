@@ -1,0 +1,1 @@
+https://openbase.com/categories/js/best-nodejs-speech-to-text-libraries
