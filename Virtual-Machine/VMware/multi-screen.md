@@ -1,0 +1,1 @@
+Ubuntu 22,21 not work will with multle screen, need use Ubuntu 20

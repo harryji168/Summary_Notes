@@ -1,0 +1,1 @@
+# set Ctrl+Alt+backspace for one click shutdown now, use shortcut

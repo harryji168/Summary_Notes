@@ -1,0 +1,1 @@
+All cPanel logs are located in the /usr/local/cpanel/logs directory. This access_log contains all traffic to WHM, cPanel, and webmail over http. This error_log contains all errors that occur when accessing a cPanel related site over http or https.
