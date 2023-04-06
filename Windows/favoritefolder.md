@@ -1,0 +1,1 @@
+https://www.howtogeek.com/444384/six-ways-to-bookmark-your-favorite-folders-in-windows-10/
