@@ -1,0 +1,1 @@
+Remove the display property settings, then unplug and plug the monitor back in to remember its position.
