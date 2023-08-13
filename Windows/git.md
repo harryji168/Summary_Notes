@@ -16,7 +16,11 @@ git init
 ```
 curl https://www.toptal.com/developers/gitignore/api/node,linux,rails,macos,windows > .gitignore
 ```
-
+``````
+git config  user.email "jiharry@hotmail.com"
+git config  user.name "Harry Ji"
+git config  credential.helper store
+```
 add all current file and folder
 ```sh
 git add .
